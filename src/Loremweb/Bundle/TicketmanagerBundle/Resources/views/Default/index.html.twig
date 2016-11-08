@@ -1,0 +1,44 @@
+
+<div>
+
+    {#encadré résumé de l'achat#}
+    <div class="well">
+        <div class="row" >
+            <div class="col-xs-8" >
+                <span class="resume-nbBillet" >7 billets demi-journée :</span >
+                <ul class="resume-listeBillet" >
+                    <li class="resume-elementBillet" >3 billets standart</li >
+                    <li class="resume-elementBillet" >2 billets jeunesse</li >
+                    <li class="resume-elementBillet" >2 billets autre</li >
+                </ul >
+            </div >
+            <div class="col-xs-4" >
+                <div class="resume-date" >17/04/2016</div >
+                <div class="resume-prix" >88€ TTC</div >
+
+            </div >
+        </div >
+    </div>
+
+    {# Barre de navigation #}
+    <ul class="nav nav-tabs ongletsNavigation" role="tablist">
+        <li role="presentation" class="active ongletsNavigation-element" ><a href="#tarifs" class="ongletsNavigation-lien" aria-controls="home" role="tab" data-toggle="tab">Tarifs</a></li>
+        <li><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true"></span></li>
+        <li role="presentation" class="ongletsNavigation-element" ><a href="#reservation" aria-controls="profile" class="ongletsNavigation-lien" role="tab" data-toggle="tab">Réservation</a></li>
+        <li><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true"></span></li>
+        <li role="presentation" class="ongletsNavigation-element" ><a href="#visiteurs" aria-controls="messages" class="ongletsNavigation-lien" role="tab" data-toggle="tab">Visiteurs</a></li>
+        <li><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true"></span></li>
+        <li role="presentation"  class="ongletsNavigation-element" ><a href="#paiement" aria-controls="settings" class="ongletsNavigation-lien" role="tab" data-toggle="tab">Paiement</a></li>
+    </ul>
+
+
+
+    {#Page du tunnel d'achat#}
+    <div class="tab-content">
+        {% include '@LoremwebTicketmanager/Default/tunnelAchat/tarifs.html.twig' %}
+        {% include '@LoremwebTicketmanager/Default/tunnelAchat/reservation.html.twig' %}
+        {% include '@LoremwebTicketmanager/Default/tunnelAchat/visiteurs.html.twig' %}
+        {% include '@LoremwebTicketmanager/Default/tunnelAchat/paiement.html.twig' %}
+    </div>
+
+</div>
