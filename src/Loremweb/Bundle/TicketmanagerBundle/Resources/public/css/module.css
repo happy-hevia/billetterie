@@ -1,0 +1,57 @@
+
+
+/****************************************
+              Onglet de navigation
+*****************************************/
+
+.ongletsNavigation{
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.ongletsNavigation-element{
+    color: black;
+    cursor: pointer;
+}
+
+.onglets-visiteurs{
+    cursor: pointer;
+}
+
+.ongletsNavigation-element.active > .ongletsNavigation-lien,
+.ongletsNavigation-element.active > .ongletsNavigation-lien:hover,
+.ongletsNavigation-element.active > .ongletsNavigation-lien:focus{
+    color: #4cae4c;
+    border: none;
+}
+
+.ongletsNavigation-lien{
+    color: black;
+    font-weight: bold;
+}
+
+.ongletsNavigation-fleche{
+    padding: 14px;
+}
+
+
+
+/****************************************
+              Encart résumé de l'achat
+*****************************************/
+
+.resume-nbBillet{
+    font-size: 1.1em;
+}
+
+.resume-date{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.resume-prix{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}

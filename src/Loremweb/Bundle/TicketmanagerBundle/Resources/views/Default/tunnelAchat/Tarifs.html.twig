@@ -1,0 +1,59 @@
+<div role="tabpanel" class="panel panel-info tab-pane {% if etape == 1 %}active{% endif %}" id="tarifs" >
+
+    <div class="panel-heading" >
+        <h2 class="panel-title" >Tarif</h2 >
+    </div >
+    <div class="panel-body" >
+        <p >Bienvenue sur la page de réservation de billet du musée du Louvre.</p >
+        <p >Le musée est ouvert de 9h à 18h tous les jours sauf le mardi (et fermé les 1er mai, 1er novembre et 25 décembre).</p >
+        <p >Voici le prix des billets selon les tarifs :</p >
+        <table class="table table-bordered" >
+            <tr >
+                <th >Tarif</th >
+                <th >Conditions</th >
+                <th >Journée</th >
+                <th >Demi-journée</th >
+            </tr>
+            <tr >
+                <td >normal</td >
+                <td >> 12ans</td >
+                <td >16 €</td >
+                <td >8 €</td >
+            </tr >
+            <tr >
+                <td >enfant</td >
+                <td >> 4 ans et < 12 ans</td >
+                <td >8 €</td >
+                <td >4 €</td >
+            </tr >
+            <tr >
+                <td >senior</td >
+                <td >> 60 ans</td >
+                <td >12 €</td >
+                <td >6 €</td >
+            </tr >
+            <tr >
+                <td >réduit</td >
+                <td >étudiant, employé du musée, d’un service du Ministère de la Culture; militaire…</td >
+                <td >10 €</td >
+                <td >5 €</td >
+            </tr >
+            <tr >
+                <td >gratuit</td >
+                <td >< 4 ans</td >
+                <td >0 €</td >
+                <td >0 e</td >
+            </tr >
+        </table >
+
+        <p>Le billet demi-journée ne permet de rentrer dans le musée qu'à partir de 14h.</p>
+        <p>Pour bénéficier du tarif réduit, il sera nécessaire de présenter sa carte d’étudiant, militaire ou équivalent lors de l’entrée.</p>
+        <p>Le payement s'effectuera par carte bancaire, Bitcoin ou Alipay.</p>
+        <p>Une fois les informations personnelles complétées et l'achat réalisé, vous recevrez les billets par mail.</p>
+        <button class="btn btn-primary pull-right" id="boutonValidation1" data-url="{{ path("reservation") }}" >Passer à l'étape suivante</button>
+
+
+    </div >
+
+
+</div >

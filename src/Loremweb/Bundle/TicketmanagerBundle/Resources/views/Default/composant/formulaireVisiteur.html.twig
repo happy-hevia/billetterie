@@ -1,0 +1,14 @@
+{#@TODO définir des espaces insécables avant les :#}
+
+{% if formVisiteur is defined %}
+    {% form_theme formVisiteur with ["bootstrap_3_horizontal_layout.html.twig"] %}
+{% endif %}
+
+<div role="tabpanel" class="tab-pane {% if numero is defined and numeroVisiteur == numero %}active{% endif %}" id="visiteur{{ numeroVisiteur }}" >
+    <h3 >Informations sur le visiteur {{ numeroVisiteur }}</h3 >
+    {% if formVisiteur is defined and numeroVisiteur == numero %}
+        {{ form_start(formVisiteur, {'attr': {'action': path('visiteurs', {numero : numero} ) , 'id': 'formVisiteurs', novalidate: 'novalidate'}}) }}
+        {{ form_widget(formVisiteur) }}
+        {{ form_end(formVisiteur) }}
+    {% endif %}
+</div >

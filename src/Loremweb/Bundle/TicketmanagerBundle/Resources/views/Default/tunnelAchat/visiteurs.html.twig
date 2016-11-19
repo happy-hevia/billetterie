@@ -1,0 +1,29 @@
+{# à supprimer avant la mise en production #}
+
+<div role="tabpanel" class="panel panel-default tab-pane {% if etape == 3 %}active{% endif %}" id="visiteurs" >
+
+    <div class="panel-heading" >
+        <h2 class="panel-title" >Tarif</h2 >
+    </div >
+    <div class="panel-body" >
+
+        <ul class="nav nav-tabs" role="tablist">
+
+            {# Barre de navigation (onglet desactivé, data-url(si activé), et active pour onglet courant) #}
+
+        {% for i in 1..10 %}
+            <li role="presentation" class="onglets-visiteurs {% if numero is defined and i == numero %}active{% endif %} {% if numero is defined and i > numero %}disabled{% endif %}" {% if numero is defined and i < numero %}data-url="{{ path('visiteurs', {numero : i}) }}" {% endif %} ><a
+            aria-controls="home"  class="">{{ i }}</a></li>
+        {% endfor %}
+        </ul>
+
+        <div class="tab-content">
+        {% for i in 1..10 %}
+            {{ include("@LoremwebTicketmanager/Default/composant/formulaireVisiteur.html.twig", {numeroVisiteur : i }) }}
+        {% endfor %}
+        </div>
+    </div>
+
+
+
+</div >

@@ -1,44 +1,62 @@
+{% extends 'base.html.twig' %}
 
-<div>
+{% block body %}
+    <div id="conteneur-ticketManager" >
+        <div id="contenu-ticketManager" >
+            {#encadré résumé de l'achat#}
+            <div class="well" >
+                <div class="row" >
+                    <p >Résumé de la reservation :</p >
+                    {% if app.session.get("reservation") is not null %}
+                        <div class="col-xs-8" >
+                            <span class="resume-nbBillet" >{{ app.session.get("reservation").nombreBillet }} billets {{ app.session.get("reservation").typeBillet }} :</span >
+                            <ul class="resume-listeBillet" >
+                                <li class="resume-elementBillet" >3 billets standart</li >
+                                <li class="resume-elementBillet" >2 billets jeunesse</li >
+                                <li class="resume-elementBillet" >2 billets autre</li >
+                            </ul >
 
-    {#encadré résumé de l'achat#}
-    <div class="well">
-        <div class="row" >
-            <div class="col-xs-8" >
-                <span class="resume-nbBillet" >7 billets demi-journée :</span >
-                <ul class="resume-listeBillet" >
-                    <li class="resume-elementBillet" >3 billets standart</li >
-                    <li class="resume-elementBillet" >2 billets jeunesse</li >
-                    <li class="resume-elementBillet" >2 billets autre</li >
-                </ul >
+                        </div >
+                        <div class="col-xs-4" >
+
+                            <div class="resume-date" >{{ app.session.get("reservation").dateVisite|date('d/m/y') }}</div >
+                            <div class="resume-prix" >88€ TTC</div >
+                        </div >
+                    {% endif %}
+                </div >
             </div >
-            <div class="col-xs-4" >
-                <div class="resume-date" >17/04/2016</div >
-                <div class="resume-prix" >88€ TTC</div >
 
+
+            {# Barre de navigation (onglet desactivé, data-url(si activé), et active pour onglet courant) #}
+            <ul class="nav nav-tabs ongletsNavigation" role="tablist" >
+                <li class="{% if etape == 1 %}active{% endif %} ongletsNavigation-element" id="onglet-tarifs" data-url="{{ path('tarifs') }}" >
+                    <a class="ongletsNavigation-lien" aria-controls="home" role="tab" >Tarifs</a ></li >
+                <li ><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true" ></span >
+                </li >
+                <li class="{% if etape == 2 %}active{% endif %} ongletsNavigation-element" id="onglet-reservation" data-url="{{ path('reservation') }}" >
+                    <a aria-controls="profile" class="ongletsNavigation-lien" role="tab" >Réservation</a ></li >
+                <li ><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true" ></span >
+                </li >
+                <li class="{% if etape == 3 %}active{% endif %} ongletsNavigation-element {% if etape < 3 %}disabled{% endif %}" id="onglet-visiteurs" {% if etape > 3 %}data-url="{{ path('visiteurs') }}"{% endif %} >
+                    <a aria-controls="messages" class="ongletsNavigation-lien" role="tab" >Visiteurs</a ></li >
+                <li ><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true" ></span >
+                </li >
+                <li class="{% if etape == 4 %}active{% endif %} ongletsNavigation-element {% if etape < 4 %}disabled{% endif %}" id="onglet-paiement" >
+                    <a aria-controls="settings" class="ongletsNavigation-lien" role="tab" >Paiement</a ></li >
+            </ul >
+
+            {#panneau du tunnel d'achat#}
+            <div class="tab-content" >
+                {% include '@LoremwebTicketmanager/Default/tunnelAchat/tarifs.html.twig' %}
+                {% include '@LoremwebTicketmanager/Default/tunnelAchat/reservation.html.twig' %}
+                {% include '@LoremwebTicketmanager/Default/tunnelAchat/visiteurs.html.twig' %}
+                {% include '@LoremwebTicketmanager/Default/tunnelAchat/paiement.html.twig' %}
             </div >
+
         </div >
-    </div>
-
-    {# Barre de navigation #}
-    <ul class="nav nav-tabs ongletsNavigation" role="tablist">
-        <li role="presentation" class="active ongletsNavigation-element" ><a href="#tarifs" class="ongletsNavigation-lien" aria-controls="home" role="tab" data-toggle="tab">Tarifs</a></li>
-        <li><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true"></span></li>
-        <li role="presentation" class="ongletsNavigation-element" ><a href="#reservation" aria-controls="profile" class="ongletsNavigation-lien" role="tab" data-toggle="tab">Réservation</a></li>
-        <li><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true"></span></li>
-        <li role="presentation" class="ongletsNavigation-element" ><a href="#visiteurs" aria-controls="messages" class="ongletsNavigation-lien" role="tab" data-toggle="tab">Visiteurs</a></li>
-        <li><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true"></span></li>
-        <li role="presentation"  class="ongletsNavigation-element" ><a href="#paiement" aria-controls="settings" class="ongletsNavigation-lien" role="tab" data-toggle="tab">Paiement</a></li>
-    </ul>
-
-
-
-    {#Page du tunnel d'achat#}
-    <div class="tab-content">
-        {% include '@LoremwebTicketmanager/Default/tunnelAchat/tarifs.html.twig' %}
-        {% include '@LoremwebTicketmanager/Default/tunnelAchat/reservation.html.twig' %}
-        {% include '@LoremwebTicketmanager/Default/tunnelAchat/visiteurs.html.twig' %}
-        {% include '@LoremwebTicketmanager/Default/tunnelAchat/paiement.html.twig' %}
-    </div>
-
-</div>
+    </div >
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script id="js-tunnelAchat" src="{{ asset('bundles/loremwebticketmanager/js/javascript.js') }}" ></script >
+{% endblock %}

@@ -1,0 +1,14 @@
+.logo{
+	margin-top: -12px;
+}
+.menu-titre{
+	display: inline-block;
+	padding-top: 10px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.menu-bouton{
+	margin: 10px;
+}
