@@ -1,1 +1,30 @@
-<div role="tabpanel" class="well tab-pane {% if etape == 4 %}active{% endif %}" id="paiement">4</div>
+<div role="tabpanel" class="well tab-pane panneau-principal {% if etape == 4 %}active slideApparition{% endif %}" id="paiement" >
+
+    {% if app.session.get('reservation').visiteurs is defined and app.session.get('reservation').visiteurs is not null %}
+        <p >accès accepté</p >
+
+        <form action="{{ path('paiement') }}" method="post">
+            <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_06b3Uad4G6KyNYHEcdAV9MIb"
+                    data-name="Musée du Louvre"
+                    data-description="4 tickets Journée - 12/12/2007"
+                    data-amount="5000"
+                    data-zip-code="true"
+                    data-label="Payer"
+                    data-allow-remember-me="false"
+                    data-bitcoin="true"
+                    data-currency="eur"
+                    data-locale="fr"></script>
+        </form>
+
+        {{ succes|raw }}
+        {{ erreur|raw }}
+    {% else %}
+
+        <div class="alert alert-info" role="alert" >Vous n'avez pas encore accès à ce panneau. Merci de compléter les formulaires précédents !</div >
+
+
+    {% endif %}
+
+
+</div >

@@ -1,1 +1,14 @@
+footer{
+    padding: 7px;
+    height: 35px;
+    background-color: #333;
+    color: white;
+}
+
+.contenuPrincipal{
+    background-color: #779ab8;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
 

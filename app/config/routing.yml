@@ -2,7 +2,3 @@ loremweb_ticketmanager:
     resource: "@LoremwebTicketmanagerBundle/Controller/"
     type:     annotation
     prefix:   /
-
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation

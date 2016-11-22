@@ -1,39 +1,42 @@
-{% extends 'base.html.twig' %}
+{% extends '@LoremwebTicketmanager/base.html.twig' %}
 
 {% block body %}
     <div id="conteneur-ticketManager" >
         <div id="contenu-ticketManager" >
             {#encadré résumé de l'achat#}
-            <div class="well" >
-                <div class="row" >
-                    <p >Résumé de la reservation :</p >
+            <div class="panel panel-info" >
+                <div class="panel-heading" ><h2 class="panel-title" >Résumé de la reservation :</h2 ></div >
+                {#{{ dump(app.session.get('reservation')) }}#}
+                <div class="panel-body" >
                     {% if app.session.get("reservation") is not null %}
-                        <div class="col-xs-8" >
-                            <span class="resume-nbBillet" >{{ app.session.get("reservation").nombreBillet }} billets {{ app.session.get("reservation").typeBillet }} :</span >
+                        <div class="col-sm-8" >
+                            <span class="resume-nbBillet" >{{ app.session.get("reservation").nombreBillet }} billet(s) "{{ app.session.get("reservation").typeBillet }}" :</span >
+
                             <ul class="resume-listeBillet" >
-                                <li class="resume-elementBillet" >3 billets standart</li >
-                                <li class="resume-elementBillet" >2 billets jeunesse</li >
-                                <li class="resume-elementBillet" >2 billets autre</li >
+                                {{ listetarif(app.session.get("reservation").visiteurs)|raw }}
                             </ul >
 
                         </div >
-                        <div class="col-xs-4" >
+                        <div class="col-sm-4" >
 
-                            <div class="resume-date" >{{ app.session.get("reservation").dateVisite|date('d/m/y') }}</div >
-                            <div class="resume-prix" >88€ TTC</div >
+                            <div class="resume-date" >Date de visite : {{ app.session.get("reservation").dateVisite|date('d/m/y') }}</div >
+                            <div class="resume-prix" >Prix total : {{ app.session.get("reservation").prixTotal }}€ TTC</div >
                         </div >
+                    {% else %}
+                        <p >Aucune réservation en cours</p >
                     {% endif %}
+
                 </div >
             </div >
 
 
             {# Barre de navigation (onglet desactivé, data-url(si activé), et active pour onglet courant) #}
             <ul class="nav nav-tabs ongletsNavigation" role="tablist" >
-                <li class="{% if etape == 1 %}active{% endif %} ongletsNavigation-element" id="onglet-tarifs" data-url="{{ path('tarifs') }}" >
+                <li class="{% if etape == 1 %}active{% endif %} ongletsNavigation-element" id="onglet-tarifs" {% if etape != 1 %}data-url="{{ path('tarifs') }}"{% endif %} >
                     <a class="ongletsNavigation-lien" aria-controls="home" role="tab" >Tarifs</a ></li >
                 <li ><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true" ></span >
                 </li >
-                <li class="{% if etape == 2 %}active{% endif %} ongletsNavigation-element" id="onglet-reservation" data-url="{{ path('reservation') }}" >
+                <li class="{% if etape == 2 %}active{% endif %} ongletsNavigation-element" id="onglet-reservation" {% if etape != 2 %}data-url="{{ path('reservation') }}"{% endif %} >
                     <a aria-controls="profile" class="ongletsNavigation-lien" role="tab" >Réservation</a ></li >
                 <li ><span class="glyphicon glyphicon-arrow-right ongletsNavigation-fleche" aria-hidden="true" ></span >
                 </li >
@@ -46,11 +49,27 @@
             </ul >
 
             {#panneau du tunnel d'achat#}
-            <div class="tab-content" >
+            <div class="tab-content emplacementPanneau" >
                 {% include '@LoremwebTicketmanager/Default/tunnelAchat/tarifs.html.twig' %}
                 {% include '@LoremwebTicketmanager/Default/tunnelAchat/reservation.html.twig' %}
                 {% include '@LoremwebTicketmanager/Default/tunnelAchat/visiteurs.html.twig' %}
                 {% include '@LoremwebTicketmanager/Default/tunnelAchat/paiement.html.twig' %}
+
+                {# Loading css #}
+                <div class="loading" >
+                    <div class="sk-circle1 sk-circle" ></div >
+                    <div class="sk-circle2 sk-circle" ></div >
+                    <div class="sk-circle3 sk-circle" ></div >
+                    <div class="sk-circle4 sk-circle" ></div >
+                    <div class="sk-circle5 sk-circle" ></div >
+                    <div class="sk-circle6 sk-circle" ></div >
+                    <div class="sk-circle7 sk-circle" ></div >
+                    <div class="sk-circle8 sk-circle" ></div >
+                    <div class="sk-circle9 sk-circle" ></div >
+                    <div class="sk-circle10 sk-circle" ></div >
+                    <div class="sk-circle11 sk-circle" ></div >
+                    <div class="sk-circle12 sk-circle" ></div >
+                </div >
             </div >
 
         </div >
@@ -58,5 +77,8 @@
 {% endblock %}
 {% block javascripts %}
     {{ parent() }}
+    <script src="{{ asset('bundles/loremwebticketmanager/js/moment-with-locales.min.js') }}" ></script >
+    <script src="{{ asset('bundles/loremwebticketmanager/js/bootstrap-datetimepicker.min.js') }}" ></script >
     <script id="js-tunnelAchat" src="{{ asset('bundles/loremwebticketmanager/js/javascript.js') }}" ></script >
+
 {% endblock %}

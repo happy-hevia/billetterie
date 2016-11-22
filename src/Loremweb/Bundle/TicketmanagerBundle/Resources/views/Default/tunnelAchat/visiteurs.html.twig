@@ -1,29 +1,44 @@
-{# à supprimer avant la mise en production #}
 
-<div role="tabpanel" class="panel panel-default tab-pane {% if etape == 3 %}active{% endif %}" id="visiteurs" >
+<div role="tabpanel" class="panel panel-default tab-pane panneau-principal {% if etape == 3 %}active slideApparition{% endif %}" id="visiteurs" >
 
     <div class="panel-heading" >
-        <h2 class="panel-title" >Tarif</h2 >
+        <h2 class="panel-title" >Visiteurs</h2 >
     </div >
     <div class="panel-body" >
 
-        <ul class="nav nav-tabs" role="tablist">
+        {% if app.session.get('reservation') is defined and app.session.get('reservation') is not null %}
 
-            {# Barre de navigation (onglet desactivé, data-url(si activé), et active pour onglet courant) #}
+            <ul class="nav nav-tabs" role="tablist" >
 
-        {% for i in 1..10 %}
-            <li role="presentation" class="onglets-visiteurs {% if numero is defined and i == numero %}active{% endif %} {% if numero is defined and i > numero %}disabled{% endif %}" {% if numero is defined and i < numero %}data-url="{{ path('visiteurs', {numero : i}) }}" {% endif %} ><a
-            aria-controls="home"  class="">{{ i }}</a></li>
-        {% endfor %}
-        </ul>
+                {# Barre de navigation (onglet desactivé, data-url(si activé), et active pour onglet courant) #}
 
-        <div class="tab-content">
-        {% for i in 1..10 %}
-            {{ include("@LoremwebTicketmanager/Default/composant/formulaireVisiteur.html.twig", {numeroVisiteur : i }) }}
-        {% endfor %}
-        </div>
-    </div>
+                {% for i in 1..app.session.get('reservation').nombreBillet %}
+                    <li role="presentation" class="onglets-visiteurs {% if numero is defined and i == numero %}active{% endif %} {% if numero is defined and i > numero %}disabled{% endif %}" {% if numero is defined and i < numero %}data-url="{{ path('visiteurs', {numero : i}) }}" {% endif %} >
+                        <a
+                                aria-controls="home" class="" >{{ i }}</a ></li >
+                {% endfor %}
+            </ul >
 
+            <div class="tab-content" >
+
+                {#Panneau de navigation des visiteurs#}
+                {% for i in 1..app.session.get('reservation').nombreBillet %}
+                    {{ include("@LoremwebTicketmanager/Default/composant/formulaireVisiteur.html.twig", {numeroVisiteur : i }) }}
+                {% endfor %}
+                <div class="alert alert-info" role="alert" >
+                    <ul >
+                        <li >Pour profiter du tarif réduit vous devez présenter un justificatif à l'accueil du musée.</li >
+                        <li >La date de naissance permet de définir le tarif du visiteur.</li >
+                    </ul >
+                </div >
+            </div >
+        {% else %}
+
+            <div class="alert alert-info" role="alert" >Vous n'avez pas encore accès à ce panneau. Merci de compléter les formulaires précédents !</div >
+
+        {% endif %}
+
+    </div >
 
 
 </div >

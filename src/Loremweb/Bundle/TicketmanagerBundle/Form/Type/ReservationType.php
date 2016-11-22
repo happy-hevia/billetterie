@@ -25,7 +25,7 @@ class ReservationType extends AbstractType
     public function configureOptions(OptionsResolver $resolver) {
         $resolver->setDefaults(array(
             'data_class' => 'Loremweb\Bundle\TicketmanagerBundle\Entity\Reservation',
-            'nombreVisiteur' => 10,
+            'parameters' => null,
         ));
     }
 
@@ -47,12 +47,12 @@ class ReservationType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('dateVisite', DateType::class, array('label' => 'Date de la visite :', 'widget' => 'single_text'))
+            ->add('dateVisite', DateType::class, array('label' => 'Date de la visite :', 'widget' => 'single_text', 'attr' => array('data-param' => json_encode($options['parameters']))))
             ->add('typeBillet', ChoiceType::class, array('label' => 'Type de billet :',
                                                         'choices' => array('Journée' => 'journee', 'Demi-journée' => 'demi'),
                                                         'expanded' => true,
                                                         'multiple' => false))
-            ->add('nombreBillet', ChoiceType::class, array('label' => 'Nombre de billet :', 'choices' => $this->choixNombreVisiteur($options['nombreVisiteur'])))
+            ->add('nombreBillet', ChoiceType::class, array('label' => 'Nombre de billet :', 'choices' => $this->choixNombreVisiteur($options['parameters']['nb_tickets_max'])))
             ->add('email', EmailType::class, array("label" => "Mail :"))
             ->add('emailConfirmation', EmailType::class, array("label" => "Confirmer mail :"))
             ->add('cgu', CheckboxType::class, array("label" => "J'accepte les conditions générales de vente"))

@@ -1,57 +1,126 @@
+/****************************************
+              MENU
+*****************************************/
 
+.logo {
+    margin-top: -12px;
+}
+
+.menu-titre {
+    display: inline-block;
+    padding-top: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.menu-bouton {
+    margin: 10px;
+}
+
+.form-langue {
+    display: inline-block;
+}
 
 /****************************************
               Onglet de navigation
 *****************************************/
 
-.ongletsNavigation{
+.ongletsNavigation {
     background-color: white;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-.ongletsNavigation-element{
+.ongletsNavigation-element {
     color: black;
     cursor: pointer;
+    height: 42px;;
 }
 
-.onglets-visiteurs{
+.onglets-visiteurs {
     cursor: pointer;
 }
 
 .ongletsNavigation-element.active > .ongletsNavigation-lien,
 .ongletsNavigation-element.active > .ongletsNavigation-lien:hover,
-.ongletsNavigation-element.active > .ongletsNavigation-lien:focus{
+.ongletsNavigation-element.active > .ongletsNavigation-lien:focus {
     color: #4cae4c;
     border: none;
 }
 
-.ongletsNavigation-lien{
+.ongletsNavigation-lien {
     color: black;
     font-weight: bold;
 }
 
-.ongletsNavigation-fleche{
+.ongletsNavigation-fleche {
     padding: 14px;
 }
 
-
-
 /****************************************
-              Encart résumé de l'achat
+          Encart résumé de l'achat
 *****************************************/
 
-.resume-nbBillet{
+.resume-nbBillet {
     font-size: 1.1em;
 }
 
-.resume-date{
+.resume-date {
     font-size: 1.2em;
     text-decoration: underline;
 }
 
-.resume-prix{
+.resume-prix {
     font-size: 1.5em;
     font-weight: bold;
 
+}
+
+/****************************************
+              Page - Tarifs
+*****************************************/
+
+/* rend le tableau responsive sur mobile*/
+
+@media screen and (max-width: 480px) {
+    .table-collapse-phone {
+        display: block;
+    }
+    .table-collapse-phone caption,
+    .table-collapse-phone tbody,
+    .table-collapse-phone tr,
+    .table-collapse-phone th,
+    .table-collapse-phone td {
+        display: block;
+    }
+    .table-collapse-phone thead,
+    .table-collapse-phone tfoot {
+        display: none;
+    }
+    .table-collapse-phone tr {
+        border-top: 1px solid #ddd;
+    }
+    .table-collapse-phone tr:first-child {
+        border: 0;
+    }
+    .table-collapse-phone > tbody > tr > th:first-child,
+    .table-collapse-phone > tbody > tr > td:first-child {
+        border: 0;
+        /* perso ! Permet de mettre en évidence la première cellule*/
+        background-color: #c9dabf;
+    }
+    .table-collapse-phone .has-label[data-label] {
+        position: relative;
+        padding-left: 50%;
+    }
+    .table-collapse-phone .has-label[data-label]:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 8px;
+        content: attr(data-label);
+        font-weight: bold;
+    }
 }

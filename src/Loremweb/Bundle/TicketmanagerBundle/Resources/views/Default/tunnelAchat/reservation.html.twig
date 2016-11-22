@@ -2,13 +2,13 @@
 {% if formReservation is defined %}
     {% form_theme formReservation with ["bootstrap_3_horizontal_layout.html.twig"] %}
 {% endif %}
-<div role="tabpanel" class="panel panel-default tab-pane {% if etape == 2 %}active{% endif %}" id="reservation" >
+<div role="tabpanel" class="panel panel-default tab-pane panneau-principal {% if etape == 2 %}active slideApparition{% endif %}" id="reservation" >
 
 
 
 
     <div class="panel-heading" >
-        <h2 class="panel-title" >Tarif</h2 >
+        <h2 class="panel-title" >Réservation</h2 >
     </div >
     <div class="panel-body" >
         <p >Merci de remplir le formulaire ci-dessous :</p >
@@ -18,6 +18,10 @@
             {{ form_widget(formReservation) }}
             {{ form_end(formReservation) }}
         {% endif %}
+
+        <div class="alert alert-info" role="alert">Les billets vous seront envoyés sur votre adresse mail, merci de fournir une adresse mail valide</div>
+
+
 
     </div >
 

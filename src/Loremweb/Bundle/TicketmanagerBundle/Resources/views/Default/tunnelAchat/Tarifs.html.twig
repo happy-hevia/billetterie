@@ -1,4 +1,4 @@
-<div role="tabpanel" class="panel panel-info tab-pane {% if etape == 1 %}active{% endif %}" id="tarifs" >
+<div role="tabpanel" class="panel panel-default tab-pane panneau-principal {% if etape == 1 %}active slideApparition{% endif %}" id="tarifs" >
 
     <div class="panel-heading" >
         <h2 class="panel-title" >Tarif</h2 >
@@ -7,50 +7,50 @@
         <p >Bienvenue sur la page de réservation de billet du musée du Louvre.</p >
         <p >Le musée est ouvert de 9h à 18h tous les jours sauf le mardi (et fermé les 1er mai, 1er novembre et 25 décembre).</p >
         <p >Voici le prix des billets selon les tarifs :</p >
-        <table class="table table-bordered" >
+        <table class="table table-bordered table-collapse-phone" >
+            <thead >
+            <th ><strong >Tarif</strong ></th >
+            <th >Conditions</th >
+            <th >Journée</th >
+            <th >Demi-journée</th >
+            </thead >
             <tr >
-                <th >Tarif</th >
-                <th >Conditions</th >
-                <th >Journée</th >
-                <th >Demi-journée</th >
-            </tr>
-            <tr >
-                <td >normal</td >
-                <td >> 12ans</td >
-                <td >16 €</td >
-                <td >8 €</td >
+                <td class="has-label" data-label="Tarif" ><strong >normal</strong ></td >
+                <td class="has-label" data-label="Conditions" >> 12ans</td >
+                <td class="has-label" data-label="Journée" >16 €</td >
+                <td class="has-label" data-label="Demi-journée" >8 €</td >
             </tr >
             <tr >
-                <td >enfant</td >
-                <td >> 4 ans et < 12 ans</td >
-                <td >8 €</td >
-                <td >4 €</td >
+                <td class="has-label" data-label="Tarif" ><strong >enfant</strong ></td >
+                <td class="has-label" data-label="Conditions" >> 4 ans et < 12 ans</td >
+                <td class="has-label" data-label="Journée" >8 €</td >
+                <td class="has-label" data-label="Demi-journée" >4 €</td >
             </tr >
             <tr >
-                <td >senior</td >
-                <td >> 60 ans</td >
-                <td >12 €</td >
-                <td >6 €</td >
+                <td class="has-label" data-label="Tarif" ><strong >senior</strong ></td >
+                <td class="has-label" data-label="Conditions" >> 60 ans</td >
+                <td class="has-label" data-label="Journée" >12 €</td >
+                <td class="has-label" data-label="Demi-journée" >6 €</td >
             </tr >
             <tr >
-                <td >réduit</td >
-                <td >étudiant, employé du musée, d’un service du Ministère de la Culture; militaire…</td >
-                <td >10 €</td >
-                <td >5 €</td >
+                <td class="has-label" data-label="Tarif" ><strong >réduit</strong ></td >
+                <td class="has-label" data-label="Conditions" >étudiant, employé du musée, d’un service du Ministère de la Culture; militaire…</td >
+                <td class="has-label" data-label="Journée" >10 €</td >
+                <td class="has-label" data-label="Demi-journée" >5 €</td >
             </tr >
             <tr >
-                <td >gratuit</td >
-                <td >< 4 ans</td >
-                <td >0 €</td >
-                <td >0 e</td >
+                <td class="has-label" data-label="Tarif" >gratuit</td >
+                <td class="has-label" data-label="Conditions" >< 4 ans</td >
+                <td class="has-label" data-label="Journée" >0 €</td >
+                <td class="has-label" data-label="Demi-journée" >0 e</td >
             </tr >
         </table >
 
-        <p>Le billet demi-journée ne permet de rentrer dans le musée qu'à partir de 14h.</p>
-        <p>Pour bénéficier du tarif réduit, il sera nécessaire de présenter sa carte d’étudiant, militaire ou équivalent lors de l’entrée.</p>
-        <p>Le payement s'effectuera par carte bancaire, Bitcoin ou Alipay.</p>
-        <p>Une fois les informations personnelles complétées et l'achat réalisé, vous recevrez les billets par mail.</p>
-        <button class="btn btn-primary pull-right" id="boutonValidation1" data-url="{{ path("reservation") }}" >Passer à l'étape suivante</button>
+        <p >Le billet demi-journée ne permet de rentrer dans le musée qu'à partir de 14h.</p >
+        <p >Pour bénéficier du tarif réduit, il sera nécessaire de présenter sa carte d’étudiant, militaire ou équivalent lors de l’entrée.</p >
+        <p >Le payement s'effectuera par carte bancaire, Bitcoin ou Alipay.</p >
+        <p >Une fois les informations personnelles complétées et l'achat réalisé, vous recevrez les billets par mail.</p >
+        <button class="btn btn-primary pull-right" id="boutonValidation1" data-url="{{ path("reservation") }}" >Passer à l'étape suivante</button >
 
 
     </div >

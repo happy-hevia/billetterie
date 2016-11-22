@@ -41,7 +41,7 @@ class VisiteurType extends AbstractType
                                     'Italie' => 'italie',
                                     'autre' => 'autre',
                     )))
-            ->add('dateNaissance', DateType::class, array('label' => 'Date de la visite :', 'widget' => 'single_text'))
+            ->add('dateNaissance', DateType::class, array('label' => 'Date de naissance :', 'widget' => 'single_text'))
             ->add('tarifReduit', CheckboxType::class, array('label' => 'tarif Réduit'))
             ->add('submit', SubmitType::class, array('label' => 'Passer à l\'étape suivante'));
     }
