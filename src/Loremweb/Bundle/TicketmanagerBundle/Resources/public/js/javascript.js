@@ -1,7 +1,8 @@
 gestionAjaxTunnel();
 
 
-// Fonctionne à appeler à chaque chargement AJAX
+// Fonction à appeler à chaque chargement AJAX
+
 function gestionAjaxTunnel() {
     desactiveLiens();
     gestionNavigationTunnel();
@@ -10,10 +11,14 @@ function gestionAjaxTunnel() {
     gestionValidationReservation();
     gestionValidationVisiteurs();
 
-    //    Gestion des datepicker
+    gestionSelectionNombreBillet();
 
+    //    Gestion des datepicker
     gestionDatePickerReservation();
     gestionDatePickerVisiteur();
+
+//    gestion type de billet
+    gestionTypeDeBilletDisabled();
 }
 
 // désactive les liens avec la classe disabled
@@ -123,6 +128,9 @@ function gestionDatePickerReservation() {
     if ($dateVisite.length) {
         // recupère paramètre du bundle
         var parameters = JSON.parse($dateVisite.attr('data-param'));
+        // recupère le nombre de visiteurs potentiel selon la dates
+        var $reservation = $('#reservation');
+        var visiteurParDate = JSON.parse($reservation.attr('data-visiteurs'));
 
         // créer le tableau des dates fermés
         var disabledDates = [];
@@ -132,6 +140,13 @@ function gestionDatePickerReservation() {
             disabledDates.push(moment(anneeCourrante + el, "YYYYMM-DD"));
             disabledDates.push(moment((anneeCourrante + 1) + el, "YYYYMM-DD"));
         });
+
+        // Si il n'y a plus de place pour un jour donné, alors l'ajouter aux dates desactivé
+        for (var el in visiteurParDate) {
+            if (visiteurParDate[el] == 0) {
+                disabledDates.push(moment(el, "YYYY-MM-DD"));
+            }
+        }
 
 
         // Configuration du datepicker reservation
@@ -146,6 +161,43 @@ function gestionDatePickerReservation() {
         });
     }
     return parameters;
+}
+
+// Modifie le champ de selection de billet selon le nombre de billet restant
+function gestionSelectionNombreBillet() {
+    var $nombreBillet = $('#reservation_nombreBillet');
+
+    if ($nombreBillet.length) {
+        // recupère le nombre de visiteurs potentiel selon la dates
+        var $reservation = $('#reservation');
+        var visiteurParDate = JSON.parse($reservation.attr('data-visiteurs'));
+
+        var reservation_dateVisite = $('#reservation_dateVisite');
+
+
+        var $dateVisite = $('#reservation_dateVisite');
+        var parameters = JSON.parse($dateVisite.attr('data-param'));
+
+
+        reservation_dateVisite.on('dp.change', function (e) {
+            if (visiteurParDate[e.date.format('YYYY-MM-DD')]) {
+                var nombreBilletRestant = visiteurParDate[e.date.format('YYYY-MM-DD')];
+                $nombreBillet.empty();
+                for (var i = 1; i <= nombreBilletRestant; i++) {
+                    $('<option>').val(i).text(i).appendTo('#reservation_nombreBillet');
+
+                    if (i >= parameters['nb_tickets_max']){
+                        break;
+                    }
+                }
+            } else {
+                $nombreBillet.empty();
+                for (var i = 1; i <= parameters['nb_tickets_max']; i++) {
+                    $('<option>').val(i).text(i).appendTo('#reservation_nombreBillet');
+                }
+            }
+        })
+    }
 }
 
 //  Datepicker formulaire visiteur
@@ -163,6 +215,18 @@ function gestionDatePickerVisiteur() {
         });
     }
 }
+
+function gestionTypeDeBilletDisabled() {
+    var reservation_dateVisite = $('#reservation_dateVisite');
+
+    if (reservation_dateVisite.length) {
+        reservation_dateVisite.on('dp.change', function (e) {
+            if(e.date.format('YYYY-MM-DD') == moment().format("YYYY-MM-DD") && moment().format('H') >= 14 ){
+                $('#reservation_typeBillet_0').attr('disabled', 'disabled');
+            }
+        })
+    }
+};
 
 
 

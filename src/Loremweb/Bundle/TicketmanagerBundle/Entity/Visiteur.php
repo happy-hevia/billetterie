@@ -27,6 +27,8 @@ class Visiteur
      *
      * @ORM\Column(name="prenom", type="string", length=255)
      * @Assert\NotBlank()
+     * @Assert\Type("string")
+     * @Assert\Length(min = 2, max = 50)
      */
     private $prenom;
 
@@ -34,6 +36,9 @@ class Visiteur
      * @var string
      *
      * @ORM\Column(name="nom", type="string", length=255)
+     * @Assert\NotBlank()
+     * @Assert\Type("string")
+     * @Assert\Length(min = 2, max = 50)
      */
     private $nom;
 
@@ -41,6 +46,8 @@ class Visiteur
      * @var \DateTime
      *
      * @ORM\Column(name="dateNaissance", type="date")
+     * @Assert\NotNull()
+     * @Assert\Date()
      */
     private $dateNaissance;
 
@@ -48,6 +55,7 @@ class Visiteur
      * @var string
      *
      * @ORM\Column(name="pays", type="string", length=255)
+     * @Assert\Type("string")
      */
     private $pays;
 
@@ -55,6 +63,7 @@ class Visiteur
      * @var bool
      *
      * @ORM\Column(name="tarifReduit", type="boolean")
+     * @Assert\Type("bool")
      */
     private $tarifReduit;
 
@@ -71,6 +80,12 @@ class Visiteur
      * @ORM\Column(name="prix", type="integer")
      */
     private $prix;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Loremweb\Bundle\TicketmanagerBundle\Entity\Reservation", inversedBy="visiteurs")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $reservation;
 
 
     /**
@@ -249,6 +264,22 @@ class Visiteur
     public function getPrix()
     {
         return $this->prix;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getReservation()
+    {
+        return $this->reservation;
+    }
+
+    /**
+     * @param mixed $reservation
+     */
+    public function setReservation($reservation)
+    {
+        $this->reservation = $reservation;
     }
 
 

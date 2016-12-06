@@ -44,7 +44,9 @@ class DefaultController extends Controller
      */
     public function reservationAction(Request $request)
     {
+        $em = $this->getDoctrine()->getEntityManager();
         $form = $this->get('loremweb__ticketmanager.services.gestion_tunnel_achat')->validationFormulaireReservation($request);
+        $nombreVisiteursSelonDates = $em->getRepository('LoremwebTicketmanagerBundle:Reservation')->getPlacesRestantesSelonDates();
 
         if ($form === true) {
             return $this->redirectToRoute("visiteurs");
@@ -53,7 +55,8 @@ class DefaultController extends Controller
 
         return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig',
             array('formReservation' => $form,
-                'etape' => 2));
+                'etape' => 2,
+                'nombreVisiteursSelonDates' => $nombreVisiteursSelonDates));
     }
 
     /**
@@ -89,30 +92,14 @@ class DefaultController extends Controller
      */
     public function paiementAction(Request $request)
     {
-        Stripe::setApiKey("sk_test_gMXa70m6mNIl5MRI2bdhLLWc");
+        $message = $this->get('loremweb__ticketmanager.services.gestion_tunnel_achat')->gestionValidationPaiement($request);
 
-        $error = '';
-        $success = '';
-
-        try {
-            if (!$request->request->get('stripeToken')) {
-                throw new \Exception("The Stripe Token was not generated correctly");
-            } else{
-                Charge::create(array("amount" => 3000,
-                    "currency" => "eur",
-                    "card" => $_POST['stripeToken']));
-                $success = '<div class="alert alert-success">
-                <strong>Success!</strong> Your payment was successful.
-				</div>';
-            }
-
-        } catch (Card $e) {
-            $error = '<div class="alert alert-danger">
-			  <strong>Error!</strong> ' . $e->getMessage() . '
-			  </div>';
+        if ($message === "redirect") {
+            return $this->redirectToRoute('tarifs');
         }
 
-        return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig', array('etape' => 4, 'succes' => $success, 'erreur' => $error));
+
+        return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig', array('etape' => 4, 'message' => $message));
     }
 
     /**
@@ -133,6 +120,8 @@ class DefaultController extends Controller
      */
     public function cgvAction(Request $request)
     {
+
+
 
         return $this->render('LoremwebTicketmanagerBundle:Default:cgv.html.twig', array('etape' => 4));
     }

@@ -49,7 +49,11 @@ class ReservationType extends AbstractType
         $builder
             ->add('dateVisite', DateType::class, array('label' => 'Date de la visite :', 'widget' => 'single_text', 'attr' => array('data-param' => json_encode($options['parameters']))))
             ->add('typeBillet', ChoiceType::class, array('label' => 'Type de billet :',
-                                                        'choices' => array('Journée' => 'journee', 'Demi-journée' => 'demi'),
+                                                        'choices' =>
+                                                            array(
+                                                                'Journée' => 'journee',
+                                                                'Demi-journée' => 'demi',
+                                                            ),
                                                         'expanded' => true,
                                                         'multiple' => false))
             ->add('nombreBillet', ChoiceType::class, array('label' => 'Nombre de billet :', 'choices' => $this->choixNombreVisiteur($options['parameters']['nb_tickets_max'])))

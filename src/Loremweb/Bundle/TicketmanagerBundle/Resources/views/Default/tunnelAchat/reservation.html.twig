@@ -2,7 +2,7 @@
 {% if formReservation is defined %}
     {% form_theme formReservation with ["bootstrap_3_horizontal_layout.html.twig"] %}
 {% endif %}
-<div role="tabpanel" class="panel panel-default tab-pane panneau-principal {% if etape == 2 %}active slideApparition{% endif %}" id="reservation" >
+<div role="tabpanel" class="panel panel-default tab-pane panneau-principal {% if etape == 2 %}active slideApparition{% endif %}" id="reservation" {% if nombreVisiteursSelonDates is defined %}data-visiteurs="{{ nombreVisiteursSelonDates }}"{% endif %} >
 
 
 

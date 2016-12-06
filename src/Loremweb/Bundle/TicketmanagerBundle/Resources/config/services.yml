@@ -18,11 +18,16 @@ services:
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
     loremweb__ticketmanager.services.gestion_tunnel_achat:
         class: Loremweb\Bundle\TicketmanagerBundle\Services\GestionTunnelAchat
-        arguments: [ "@doctrine.orm.entity_manager", "@form.factory", "@session", "%loremweb_ticketmanager%" ]
+        arguments: [ "@doctrine.orm.entity_manager", "@form.factory", "@session", "%loremweb_ticketmanager%", "@mailer", "@templating" ]
 
     validator.date_valide:
         class: Loremweb\Bundle\TicketmanagerBundle\Validator\Constraints\DateValideValidator
         arguments: [ "%loremweb_ticketmanager%" ]
+        tags:
+            - { name: validator.constraint_validator }
+    validator.nombre_visiteurs_valide:
+        class: Loremweb\Bundle\TicketmanagerBundle\Validator\Constraints\NombreVisiteursValidator
+        arguments: [ "@session", "@doctrine.orm.entity_manager" ]
         tags:
             - { name: validator.constraint_validator }
     twig_ajout:

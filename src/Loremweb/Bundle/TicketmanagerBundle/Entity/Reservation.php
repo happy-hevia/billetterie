@@ -12,6 +12,8 @@ use Symfony\Component\Validator\Constraints as Assert;
  *
  * @ORM\Table(name="reservation")
  * @ORM\Entity(repositoryClass="Loremweb\Bundle\TicketmanagerBundle\Repository\ReservationRepository")
+ * @ORM\HasLifecycleCallbacks()
+ *
  */
 class Reservation
 {
@@ -28,8 +30,9 @@ class Reservation
      * @var \DateTime
      *
      * @ORM\Column(name="dateVisite", type="date")
+     * @Assert\NotBlank()
+     * @Assert\Date()
      * @TicketManagerAssert\DateValide
-     *
      */
     private $dateVisite;
 
@@ -37,6 +40,7 @@ class Reservation
      * @var string
      *
      * @ORM\Column(name="typeBillet", type="string", length=255)
+     * @Assert\NotNull()
      */
     private $typeBillet;
 
@@ -45,27 +49,29 @@ class Reservation
      *
      * @ORM\Column(name="email", type="string", length=255)
      * @Assert\NotBlank()
+     * @Assert\Email()
      */
     private $email;
 
     /**
      * @var string
-     *
-     * @ORM\Column(name="email", type="string", length=255)
+     * @ORM\Column(name="emailConfirmation", type="string", length=255)
+     * @Assert\NotBlank()
+     * @Assert\Email()
      */
     private $emailConfirmation;
 
     /**
      * @var int
-     *
      * @ORM\Column(name="nombreBillet", type="integer")
+     * @Assert\Type("integer")
      */
     private $nombreBillet;
 
     /**
      * @var boolean
-     *
      * @ORM\Column(name="cgu", type="boolean")
+     * @Assert\IsTrue(message="Vous devez valider les conditions générales de ventes")
      */
     private $cgu;
 
@@ -73,14 +79,12 @@ class Reservation
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="dateReservation", type="datetime")
+     * @ORM\Column(name="dateReservation", type="datetime" )
      */
     private $dateReservation;
 
     /**
-     * @var array
-     *
-     * @ORM\Column(name="visiteurs", type="array")
+     * @ORM\OneToMany(targetEntity="Loremweb\Bundle\TicketmanagerBundle\Entity\Visiteur", mappedBy="reservation", cascade={"persist"})
      */
     private $visiteurs;
 
@@ -97,6 +101,14 @@ class Reservation
      * @ORM\Column(name="codeConfirmation", type="guid", unique=true)
      */
     private $codeConfirmation;
+
+    /**
+     *
+     * @ORM\Column(name="valide", type="boolean")
+     */
+    private $valide = false;
+
+
 
 
     /**
@@ -190,8 +202,13 @@ class Reservation
      */
     public function setNombreBillet($nombreBillet)
     {
-        $this->nombreBillet = $nombreBillet;
+        //        Permet de ne garder que un nombre de visiteur égal au nombre mentionné par l'internaute
+//        Les données des autres visiteurs sont supprimés
 
+        for ($i = $this->nombreBillet; $i > $nombreBillet; $i--) {
+            unset($this->visiteurs[$i]);
+        }
+        $this->nombreBillet = $nombreBillet;
         return $this;
     }
 
@@ -244,6 +261,7 @@ class Reservation
     }
 
     public function addVisiteur($id, Visiteur $visiteur){
+        $visiteur->setReservation($this);
         $this->visiteurs[$id] = $visiteur;
     }
 
@@ -372,6 +390,37 @@ class Reservation
                 ->atPath('emailConfirmation')
                 ->addViolation();
         }
+    }
+
+    /**
+     * @ORM\PrePersist
+     */
+    public function actualiseDateReservation(){
+        $this->dateReservation = new \DateTime();
+    }
+
+    /**
+     * @ORM\PrePersist
+     */
+    public function actualiseCodeConfirmation(){
+        $this->codeConfirmation = uniqid();
+
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getValide()
+    {
+        return $this->valide;
+    }
+
+    /**
+     * @param mixed $valide
+     */
+    public function setValide($valide)
+    {
+        $this->valide = $valide;
     }
 
 }
