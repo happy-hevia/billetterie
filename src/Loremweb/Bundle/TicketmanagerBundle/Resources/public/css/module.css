@@ -79,6 +79,19 @@
 }
 
 /****************************************
+              Composant Datepicker
+*****************************************/
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+input[type="date"]::-webkit-input-placeholder{
+    visibility: hidden !important;
+}
+
+
+
+/****************************************
               Page - Tarifs
 *****************************************/
 
@@ -123,4 +136,16 @@
         content: attr(data-label);
         font-weight: bold;
     }
+}
+
+/****************************************
+              Page CGV
+*****************************************/
+
+.num{
+    padding: 10px;
+}
+
+.medium-12.large-12.small-12.columns{
+    padding: 10px;
 }

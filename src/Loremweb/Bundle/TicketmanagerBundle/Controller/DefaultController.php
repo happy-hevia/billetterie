@@ -19,9 +19,6 @@ class DefaultController extends Controller
      */
     public function accueilAction()
     {
-        // Script qui active le livereload
-// @TODO À retirer avant la mise en production
-        echo "<script src=\"//localhost:35729/livereload.js\"></script>" . "\n";
         return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig', array('etape' => 1));
     }
 
@@ -32,10 +29,9 @@ class DefaultController extends Controller
      */
     public function tarifsAction(Request $request)
     {
-
-
         return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig', array('etape' => 1));
     }
+
 
     /**
      * @Route("/reservation", name = "reservation")
@@ -48,11 +44,12 @@ class DefaultController extends Controller
         $form = $this->get('loremweb__ticketmanager.services.gestion_tunnel_achat')->validationFormulaireReservation($request);
         $nombreVisiteursSelonDates = $em->getRepository('LoremwebTicketmanagerBundle:Reservation')->getPlacesRestantesSelonDates();
 
+//        si le formulaire est valide passe à l'étape suivante
         if ($form === true) {
             return $this->redirectToRoute("visiteurs");
         }
 
-
+//       sinon affiche la page avec le formulaire
         return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig',
             array('formReservation' => $form,
                 'etape' => 2,
@@ -69,18 +66,16 @@ class DefaultController extends Controller
     {
         $form = $this->get('loremweb__ticketmanager.services.gestion_tunnel_achat')->validationFormulaireVisiteur($request, $numero);
 
+//        Si le formulaire est valide
         if ($form === true) {
-            //            si il n'y a pas de formulaire suivant, on redirige vers la page de paiement
-//            return $this->redirectToRoute("paiement");
+//            si il n'y a pas de visiteur suivant, on redirige vers la page de paiement
             if ($this->get('session')->get('reservation')->getNombreBillet() == $numero) {
                 return $this->redirectToRoute('paiement');
             }
-
-//            si le formulaire est correcte alors on redirige au formulaire du visiteur suivant
+//            si il y a un visiteur suivant alors on redirige au formulaire du visiteur suivant
             return $this->redirectToRoute('visiteurs', array('numero' => $numero + 1));
 
         }
-
 
         return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig', array('formVisiteur' => $form, 'etape' => 3, 'numero' => $numero));
     }
@@ -92,8 +87,10 @@ class DefaultController extends Controller
      */
     public function paiementAction(Request $request)
     {
+//        Récupération du message
         $message = $this->get('loremweb__ticketmanager.services.gestion_tunnel_achat')->gestionValidationPaiement($request);
 
+//        redirection vers la page d'accueil en cas de succès
         if ($message === "redirect") {
             return $this->redirectToRoute('tarifs');
         }
@@ -120,9 +117,6 @@ class DefaultController extends Controller
      */
     public function cgvAction(Request $request)
     {
-
-
-
         return $this->render('LoremwebTicketmanagerBundle:Default:cgv.html.twig', array('etape' => 4));
     }
 }

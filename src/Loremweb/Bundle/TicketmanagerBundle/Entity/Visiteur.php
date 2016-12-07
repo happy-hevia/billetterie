@@ -290,15 +290,22 @@ class Visiteur
      */
     public function actualiseTarifPrix($parameters)
     {
+
         $maintenant = new \DateTime("now");
         $dateNaissance = $this->dateNaissance;
+
+//        calcule l'age du visiteur en année
         $age = $dateNaissance->diff($maintenant)->y;
+
+//        définit le tarif selon age
         foreach ($parameters['tarifs'] as $cle => $valeur) {
             if ($age >= $valeur[0] && $age <= $valeur[1]) {
                 $this->tarif = $cle;
                 $this->prix = $valeur[2];
             }
         }
+
+//        définit tarif réduit si selectionné
         if ($this->tarifReduit === true) {
             $this->tarif = "reduit";
             $this->prix = $parameters['reduit'][0];

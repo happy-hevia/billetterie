@@ -33,7 +33,7 @@
                 <span class="icon-bar" ></span >
             </button >
 
-            <a class="navbar-brand" href="http://www.louvre.fr/" >
+            <a class="navbar-brand" href="{{ path('homepage') }}" >
                 <img alt="Brand" class="logo" src="{{ asset("bundles/loremwebticketmanager/image/logo.png") }}" width=50 height=50 />
             </a >
             <span class="menu-titre" >Billetterie du Louvre</span >
@@ -43,14 +43,6 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
             <div class="pull-right" >
                 <a href="http://www.louvre.fr/" class="btn btn-sm btn-default menu-bouton" >Retour à la page d'accueil</a >
-                <form class="form-inline form-langue" >
-                    <div class="form-group" >
-                        <select name="langue" id="lanque" class="form-control" >
-                            <option value="français" >Français</option >
-                            <option value="anglais" >English</option >
-                        </select >
-                    </div >
-                </form >
             </div >
         </div >
     </div >
@@ -58,7 +50,6 @@
 
 <!-- Main content -->
 <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 contenuPrincipal col-sm-push-1 col-md-push-2 col-lg-push-3 " >
-    <h1 >Réservation de billets</h1 >
     {% block body %}
 
     {% endblock %}
@@ -70,7 +61,7 @@
 
 <footer >
     <div class="text-center" ><span >Copyright Musée du Louvre 2016 © Tous droits réservés</span > -
-        <a href="" >Mentions légales et CGV</a ></div >
+        <a href="{{ path('mentions') }}" >Mentions légales</a > - <a href="{{ path('cgv') }}" >CGV</a ></div >
 </footer >
 
 {% block javascripts %}

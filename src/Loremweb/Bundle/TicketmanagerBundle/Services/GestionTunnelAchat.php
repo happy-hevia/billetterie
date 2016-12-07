@@ -73,7 +73,7 @@ class GestionTunnelAchat
             $this->session->get('reservation')->calculePrixTotal();
 
 //            Créer ou actualise la reservation dans la bdd
-            if($this->session->get('reservation')->getId() && $reservationBdd = $this->entityManager->getRepository('LoremwebTicketmanagerBundle:Reservation')->find($this->session->get('reservation')->getId())){
+            if ($this->session->get('reservation')->getId() && $reservationBdd = $this->entityManager->getRepository('LoremwebTicketmanagerBundle:Reservation')->find($this->session->get('reservation')->getId())) {
                 $reservationBdd->setNombreBillet($this->session->get('reservation')->getNombreBillet());
                 $this->entityManager->flush();
             } else {
@@ -98,13 +98,17 @@ class GestionTunnelAchat
      */
     public function validationFormulaireVisiteur($request, $numero)
     {
+//        On récupère les visiteurs de la session ou en crée une si il y en a pas
         if ($this->session->get('reservation') !== null && isset($this->session->get('reservation')->getVisiteurs()[$numero])) {
             $visiteur = $this->session->get('reservation')->getVisiteurs()[$numero];
         } else {
             $visiteur = new visiteur();
         }
+
+//        Création du formulaire
         $form = $this->formFactory->create(VisiteurType::class, $visiteur, array());
 
+//        gestion du formulaire
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
             $this->session->get('reservation')->addVisiteur($numero, $visiteur);
@@ -119,23 +123,22 @@ class GestionTunnelAchat
     {
 
         Stripe::setApiKey("sk_test_gMXa70m6mNIl5MRI2bdhLLWc");
-
         $message = '';
 
-//        si le paiement a été traité par stripe
+//        si le paiement a été traité par stripe : token accessible
         if ($request->request->get('stripeToken')) {
 
             try {
 //                Essaye de débiter l'internaute
                 Charge::create(array(
-                    "amount" => ( $this->session->get('reservation')->getPrixTotal() * 100 ),
+                    "amount" => ($this->session->get('reservation')->getPrixTotal() * 100),
                     "currency" => "eur",
                     "card" => $request->request->get('stripeToken')));
                 $message = '<div class="alert alert-success">
                 <strong>Félicitation !</strong> Votre paiement a été accepté.</div>';
 
             } catch (Card $e) {
-//                En cas de problème créer le message d'erreur
+//                En cas de problème retourne le message d'erreur
                 $message = '<div class="alert alert-danger">
 			  <strong>Erreur ! </strong> ' . $e->getMessage() . '. Merci de réessayer ultérierement ou de contacter le support.
 			  </div>';
@@ -143,7 +146,7 @@ class GestionTunnelAchat
                 return $message;
             }
 
-//            Envoie un mail de confirmation avec ticket
+//            Si l'internaute a été débitée alors envoie un mail de confirmation avec ticket
             $message = \Swift_Message::newInstance()
                 ->setSubject("Billets de reservation du musée du Louvre")
                 ->setFrom('happyhevia@gmail.com')
@@ -152,14 +155,15 @@ class GestionTunnelAchat
 
             $this->mailer->send($message);
 
-            //            Créer ou actualise la reservation dans la bdd
-            if($this->session->get('reservation')->getId() && $reservationBdd = $this->entityManager->getRepository('LoremwebTicketmanagerBundle:Reservation')->find($this->session->get('reservation')->getId())){
+//            Créer ou actualise la reservation dans la bdd
+            if ($this->session->get('reservation')->getId() && $reservationBdd = $this->entityManager->getRepository('LoremwebTicketmanagerBundle:Reservation')->find($this->session->get('reservation')->getId())) {
                 $reservationBdd->setValide(true);
                 $this->entityManager->flush();
             }
 //              Vide le cache
             $this->session->clear();
 
+//            indique que tout a bien fonctionné et qu'il doit y avoir une redirection
             return "redirect";
         }
 

@@ -10,13 +10,19 @@ namespace Loremweb\Bundle\TicketmanagerBundle\Repository;
  */
 class ReservationRepository extends \Doctrine\ORM\EntityRepository
 {
+
+    /**
+     * @return string
+     * retourne les places restantes associés aux dates
+     * retourne un tableau associatif au format json
+     */
     public function getPlacesRestantesSelonDates()
     {
         $query = $this->_em->createQuery('SELECT r.dateVisite, SUM(r.nombreBillet) FROM LoremwebTicketmanagerBundle:Reservation r GROUP BY r.dateVisite');
         $result = $query->getResult();
 
         $placeParDates = [];
-        $placeParJour = 10;
+        $placeParJour = 1000;
 
         foreach ($result as $el) {
             if ($el[1] < 0) {
@@ -32,6 +38,11 @@ class ReservationRepository extends \Doctrine\ORM\EntityRepository
         return json_encode($placeParDates);
     }
 
+    /**
+     * @param $dateVisite
+     * @return mixed
+     * retourne le nombre de place restante selon une date donnée
+     */
     public function getPlacesRestantesSelonDate($dateVisite)
     {
         $query = $this->_em->createQuery('SELECT r.dateVisite, SUM(r.nombreBillet) FROM LoremwebTicketmanagerBundle:Reservation r WHERE :dateVisite')

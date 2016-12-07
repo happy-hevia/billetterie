@@ -4,24 +4,28 @@
 
         {% if message is defined and message != '' %}
             {{ message|raw }}
-
         {% else %}
 
-            <p >accès accepté</p >
+            <div class="alert alert-info" >Toutes les informations ont bien été renseignées, vous pouvez passer au paiement.</div >
 
-            <form action="{{ path('paiement') }}" method="post" >
-                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                        data-key="pk_test_06b3Uad4G6KyNYHEcdAV9MIb"
-                        data-name="Musée du Louvre"
-                        data-description="{{ app.session.get('reservation').visiteurs|length }} tickets {{ app.session.get('reservation').typeBillet }} - {{ app.session.get('reservation').dateVisite|date('d-m-Y') }}"
-                        data-amount="{{ app.session.get('reservation').prixTotal * 100 }}"
-                        data-zip-code="true"
-                        data-label="Payer {{ app.session.get('reservation').prixTotal }}€"
-                        data-allow-remember-me="false"
-                        data-bitcoin="true"
-                        data-currency="eur"
-                        data-locale="auto" ></script >
-            </form >
+            <div class="text-center" >
+
+                {# Formularie Stripe #}
+                <form action="{{ path('paiement') }}" method="post" >
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-email="{{ app.session.get('reservation').email }}"
+                            data-key="pk_test_06b3Uad4G6KyNYHEcdAV9MIb"
+                            data-name="Musée du Louvre"
+                            data-description="{{ app.session.get('reservation').visiteurs|length }} tickets {{ app.session.get('reservation').typeBillet }} - {{ app.session.get('reservation').dateVisite|date('d-m-Y') }}"
+                            data-amount="{{ app.session.get('reservation').prixTotal * 100 }}"
+                            data-zip-code="true"
+                            data-label="Payer {{ app.session.get('reservation').prixTotal }}€"
+                            data-allow-remember-me="false"
+                            data-bitcoin="true"
+                            data-currency="eur"
+                            data-locale="auto" ></script >
+                </form >
+            </div >
 
         {% endif %}
     {% else %}

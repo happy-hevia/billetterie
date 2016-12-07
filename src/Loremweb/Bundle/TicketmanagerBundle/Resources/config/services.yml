@@ -1,10 +1,10 @@
 parameters:
     loremweb_ticketmanager:
         date:
-            past_dates: false #ok
-            days_closed: [0, 6] #ok
-            date_closed: ["05-01", "12-25"] #ok
-        nb_tickets_max: 10 #ok
+            past_dates: false
+            days_closed: [0, 6]
+            date_closed: ["05-01", "12-25"]
+        nb_tickets_max: 1000
         tarifs:
             normal: [12, 60, 16]
             enfant: [4, 12, 8]
@@ -13,9 +13,6 @@ parameters:
         reduit: [10]
 
 services:
-#    loremweb_ticketmanager.example:
-#        class: Loremweb\Bundle\TicketmanagerBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
     loremweb__ticketmanager.services.gestion_tunnel_achat:
         class: Loremweb\Bundle\TicketmanagerBundle\Services\GestionTunnelAchat
         arguments: [ "@doctrine.orm.entity_manager", "@form.factory", "@session", "%loremweb_ticketmanager%", "@mailer", "@templating" ]

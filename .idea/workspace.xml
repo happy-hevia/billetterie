@@ -4,30 +4,24 @@
     <bookmark url="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84c3f70-dbb8-4751-9e11-9e96a1dc5bca" name="Default" comment="Mise en lligne du site&#10;Configuration du mail&#10;Configuration du système paiement stripe">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/image/emailLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/visiteurRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/TicketmanagerBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/NombreVisiteursValidator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/NombreVisiteursValide.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+    <list default="true" id="e84c3f70-dbb8-4751-9e11-9e96a1dc5bca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/state.css" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/state.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/composant/formulaireVisiteur.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/composant/formulaireVisiteur.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigAjout.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigAjout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/DateValideValidator.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/DateValideValidator.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
     </list>
     <ignored path="billetterie.iws" />
@@ -66,132 +60,7 @@
     <favorites_list name="billetterie" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reservation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6923075">
-              <caret line="278" column="20" selection-start-line="278" selection-start-column="11" selection-end-line="278" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GestionTunnelAchat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3076925">
-              <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
-              <folding>
-                <element signature="e#2549#2590#1#PHP" expanded="true" />
-                <element signature="e#5570#5614#1#PHP" expanded="true" />
-                <element signature="e#5878#5919#1#PHP" expanded="true" />
-                <marker date="1481020913012" expanded="true" signature="4777:4861" placeholder="..." />
-                <marker date="1481020913012" expanded="true" signature="5020:5151" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mail.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3846154">
-              <caret line="113" column="76" selection-start-line="113" selection-start-column="76" selection-end-line="113" selection-end-column="76" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1481021209746" expanded="true" signature="289:429" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="321:418" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="4572:4601" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="4576:4601" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="4580:4601" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="4746:4829" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="4775:4829" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="4808:4829" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="5873:5885" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="7652:7664" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="10159:10188" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="10163:10188" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="10167:10188" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="10333:10416" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="10362:10416" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="10395:10416" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="11451:11463" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="14429:14458" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="14433:14458" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="14437:14458" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="14603:14686" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="14632:14686" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="14665:14686" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="15730:15742" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="17903:17915" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="20805:20834" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="20809:20834" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="20813:20834" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="20979:21062" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="21008:21062" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="21041:21062" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="22097:22109" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="24714:24743" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="24718:24743" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="24722:24743" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="24888:24971" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="24917:24971" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="24950:24971" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="26006:26018" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="28537:28566" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="28541:28566" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="28545:28566" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="28711:28794" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="28740:28794" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="28773:28794" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="29837:29849" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="31481:31493" placeholder="..." />
-                <marker date="1481021209746" expanded="true" signature="33017:33029" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReservationRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46396396">
-              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-              <folding>
-                <marker date="1480434316813" expanded="true" signature="368:477" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
-                <marker date="1480434316813" expanded="true" signature="389:477" placeholder="SELECT dateV... reservation" />
-                <marker date="1480434316813" expanded="true" signature="994:1081" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
-                <marker date="1480434316813" expanded="true" signature="994:1099" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
-                <marker date="1480434316813" expanded="true" signature="1082:1099" placeholder="WHERE :dateV... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paiement.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
-              <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
-              <folding>
-                <element signature="e#430#438#0#Twig" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -211,20 +80,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/css/base.css" />
-        <option value="$PROJECT_DIR$/web/css/layout.css" />
-        <option value="$PROJECT_DIR$/web/bundles/loremwebticketmanager/css/base.css" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/twigExtension.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigExtension.php" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigAjout.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/tarifs.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/cgv.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/dateTimeConfig.js" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/base.css" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/state.css" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/mentions.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/visiteurs.html.twig" />
         <option value="$PROJECT_DIR$/app/autoload.php" />
@@ -236,32 +98,39 @@
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/TicketManagerBundle.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/var/logs/dev.log" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionNombreUtilisateur.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionNombreVisiteur.php" />
         <option value="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ControllerReference.php" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig" />
         <option value="dbtable:/b59d6b78/59141e28-1f47-4868-baef-8dd0d4ce0e08/billetterie.visiteur" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/59141e28-1f47-4868-baef-8dd0d4ce0e08/console.sql" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/NombreVisiteursValide.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/NombreVisiteursValidator.php" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php" />
         <option value="&lt;31bdd5ab-b214-418d-a426-b4be69eab71d&gt;/.ovhconfig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js" />
-        <option value="$PROJECT_DIR$/web/app_dev.php" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php" />
         <option value="&lt;31bdd5ab-b214-418d-a426-b4be69eab71d&gt;/www/billetterie/var/bootstrap.php.cache" />
         <option value="&lt;31bdd5ab-b214-418d-a426-b4be69eab71d&gt;/BO-poubellesenor/app/config/parameters.yml" />
         <option value="&lt;31bdd5ab-b214-418d-a426-b4be69eab71d&gt;/www/billetterie/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/var/bootstrap.php.cache" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig" />
+        <option value="&lt;31bdd5ab-b214-418d-a426-b4be69eab71d&gt;/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css" />
+        <option value="$PROJECT_DIR$/web/app_dev.php" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/DateValideValidator.php" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigAjout.php" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/state.css" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/composant/formulaireVisiteur.html.twig" />
       </list>
     </option>
   </component>
@@ -314,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -367,6 +237,10 @@
               <option name="myItemId" value="loremwebticketmanager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -386,7 +260,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
+              <option name="myItemId" value="loremwebticketmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billetterie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billetterie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loremwebticketmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billetterie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billetterie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,6 +381,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TicketmanagerBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billetterie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billetterie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loremweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicketmanagerBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Validator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Constraints" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billetterie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billetterie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Loremweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicketmanagerBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -610,49 +592,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
+              <option name="myItemId" value="Default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
+              <option name="myItemId" value="composant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -689,10 +637,6 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -721,10 +665,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -892,7 +832,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -906,13 +846,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -922,7 +865,7 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="prop_add_unversioned_files" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="mail&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig&#10;paie&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig&#10;tunne&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php&#10;conf&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/config.yml&#10;reser&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php&#10;autoload&#9;FILE&#9;file://C:/wamp/www/billetterie/app/autoload.php&#10;build&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php&#10;buildBoot&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php&#10;visiteur&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;twigEn&#9;null&#9;null&#10;Templating&#9;null&#9;null&#10;confi&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/config.yml&#10;serv&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;tarif&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/Tarifs.html.twig&#10;type&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php&#10;java&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js&#10;Reser&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig&#10;new file&#9;ACTION&#9;NewScratchFile&#10;reserv&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig&#10;service&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;inde&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig&#10;contro&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php&#10;control&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ControllerReference.php&#10;contre&#9;null&#9;null&#10;visit&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;Filesystem&#9;null&#9;null&#10;DebugHandl&#9;null&#9;null&#10;security.y&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/security.yml&#10;routin&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/routing.yml&#10;cont&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php&#10;rout&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/routing.yml&#10;visiteurs&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/visiteurs.html.twig&#10;b&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig&#10;.onglet&#9;null&#9;null&#10;cg&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/cgv.html.twig&#10;base&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/base.css&#10;module&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css&#10;lay&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;visi&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;gest&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php&#10;la&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;mod&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css&#10;layout&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;ser&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;tu&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php&#10;ba&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig&#10;app&#9;FILE&#9;file://C:/wamp/www/billetterie/app/AppKernel.php&#10;rese&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php&#10;gestion&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" />
+    <property name="SearchEverywhereHistoryKey" value="paiement&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig&#10;serv&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;reservation&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php&#10;reser&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php&#10;ScriptHand&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php&#10;ja&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js&#10;mail&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig&#10;paie&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig&#10;tunne&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php&#10;conf&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/config.yml&#10;autoload&#9;FILE&#9;file://C:/wamp/www/billetterie/app/autoload.php&#10;build&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php&#10;buildBoot&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php&#10;visiteur&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;twigEn&#9;null&#9;null&#10;Templating&#9;null&#9;null&#10;confi&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/config.yml&#10;tarif&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/Tarifs.html.twig&#10;type&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php&#10;java&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js&#10;Reser&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig&#10;new file&#9;ACTION&#9;NewScratchFile&#10;reserv&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig&#10;service&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;inde&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig&#10;contro&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php&#10;control&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ControllerReference.php&#10;contre&#9;null&#9;null&#10;visit&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;Filesystem&#9;null&#9;null&#10;DebugHandl&#9;null&#9;null&#10;security.y&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/security.yml&#10;routin&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/routing.yml&#10;cont&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php&#10;rout&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/routing.yml&#10;visiteurs&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/visiteurs.html.twig&#10;b&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig&#10;.onglet&#9;null&#9;null&#10;cg&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/cgv.html.twig&#10;base&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/base.css&#10;module&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css&#10;lay&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;visi&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;gest&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php&#10;la&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;mod&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css&#10;layout&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;ser&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;tu&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" />
     <property name="js.buildTools.grunt.node_interpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="C:\Users\Jérémie\AppData\Roaming\npm\node_modules\grunt-cli" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -1041,7 +984,13 @@
       <option name="project" value="LOCAL" />
       <updated>1479822562423</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mise en lligne du site&#10;Configuration du mail&#10;Configuration du système paiement stripe">
+      <created>1481021434031</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1481021434031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1055,25 +1004,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23007712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24228792" sideWeight="0.71746576" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23007712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24871466" sideWeight="0.71746576" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22943445" sideWeight="0.28253424" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10632571" sideWeight="0.5025707" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19858612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34139785" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28263795" sideWeight="0.4974293" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28263795" sideWeight="0.4974293" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14845759" sideWeight="0.17123288" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1416" height="676" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2139973" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -1109,492 +1058,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/stripe/stripe-php/vendor/symfony/filesystem/Filesystem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigAjout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Compiler/DebugHandlerPass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.038288288">
-          <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6698113">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ControllerReference.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3243243">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="180" selection-start-line="4" selection-start-column="180" selection-end-line="4" selection-end-column="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b59d6b78/59141e28-1f47-4868-baef-8dd0d4ce0e08/billetterie.visiteur">
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/59141e28-1f47-4868-baef-8dd0d4ce0e08/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="80" selection-start-line="0" selection-start-column="80" selection-end-line="0" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35135135">
-          <caret line="286" column="20" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/NombreVisiteursValide.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/NombreVisiteursValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#161#192#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://PHP/\Symfony\Component\Routing\RouterInterface">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>PHP</ID>
-          <OriginalElement>\Symfony\Component\Routing\RouterInterface</OriginalElement>
-          <nodes>
-            <node x="" y="">\Symfony\Component\EventDispatcher\EventSubscriberInterface</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\KernelEvents</node>
-            <node x="" y="">\Symfony\Component\EventDispatcher\Event</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\DoctrineParamConverter</node>
-            <node x="" y="">\Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorage</node>
-            <node x="" y="">\Monolog\Formatter\FormatterInterface</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\Session\Session</node>
-            <node x="" y="">\Symfony\Component\DependencyInjection\ContainerAwareInterface</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Controller\ControllerResolverInterface</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\ParamConverterInterface</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\CacheWarmer\WarmableInterface</node>
-            <node x="" y="">\Symfony\Component\Security\Core\Authorization\AccessDecisionManager</node>
-            <node x="" y="">\Twig_Extension_Core</node>
-            <node x="" y="">\Symfony\Component\EventDispatcher\EventDispatcher</node>
-            <node x="" y="">\Symfony\Component\Cache\Adapter\AbstractAdapter</node>
-            <node x="" y="">\Monolog\Handler\FingersCrossedHandler</node>
-            <node x="" y="">\Twig_Extension</node>
-            <node x="" y="">\Symfony\Component\Security\Core\User\UserProviderInterface</node>
-            <node x="" y="">\Twig_Template</node>
-            <node x="" y="">\appProdProjectContainerUrlGenerator</node>
-            <node x="" y="">\Twig_LoaderInterface</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactory</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\Configuration\ConfigurationAnnotation</node>
-            <node x="" y="">\Twig_ExtensionInterface</node>
-            <node x="" y="">\Monolog\Handler\FingersCrossed\ActivationStrategyInterface</node>
-            <node x="" y="">\Monolog\Handler\TestHandler</node>
-            <node x="" y="">\Symfony\Component\Routing\Generator\ConfigurableRequirementsInterface</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\EventListener\RouterListener</node>
-            <node x="" y="">\Doctrine\Common\Lexer\AbstractLexer</node>
-            <node x="" y="">\Monolog\Formatter\LineFormatter</node>
-            <node x="" y="">\Symfony\Component\Routing\RequestContextAwareInterface</node>
-            <node x="" y="">\Symfony\Component\Routing\Matcher\RedirectableUrlMatcherInterface</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener</node>
-            <node x="" y="">\Symfony\Component\Routing\Generator\UrlGeneratorInterface</node>
-            <node x="" y="">\Monolog\Logger</node>
-            <node x="" y="">\Doctrine\Common\Lexer</node>
-            <node x="" y="">\Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher</node>
-            <node x="" y="">\Symfony\Component\EventDispatcher\EventDispatcherInterface</node>
-            <node x="" y="">\Symfony\Component\Security\Core\Authentication\AuthenticationManagerInterface</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\DateTimeParamConverter</node>
-            <node x="" y="">\Symfony\Bundle\SecurityBundle\Security\FirewallMap</node>
-            <node x="" y="">\Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface</node>
-            <node x="" y="">\Doctrine\Common\Persistence\AbstractManagerRegistry</node>
-            <node x="" y="">\Symfony\Component\Templating\TemplateNameParser</node>
-            <node x="" y="">\Symfony\Component\Routing\Router</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\EventListener\ResponseListener</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\Configuration\ConfigurationInterface</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Controller\ArgumentResolver</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener</node>
-            <node x="" y="">\Psr\Log\LoggerAwareTrait</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Controller\ControllerResolver</node>
-            <node x="" y="">\Monolog\Handler\StreamHandler</node>
-            <node x="" y="">\Symfony\Component\Security\Core\Authorization\Voter\VoterInterface</node>
-            <node x="" y="">\Doctrine\Common\Persistence\ManagerRegistry</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\RequestMatcher</node>
-            <node x="" y="">\Doctrine\Bundle\DoctrineBundle\Registry</node>
-            <node x="" y="">\Doctrine\Common\Persistence\ConnectionRegistry</node>
-            <node x="" y="">\Symfony\Component\Security\Http\Firewall</node>
-            <node x="" y="">\Twig_TemplateInterface</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\Session\SessionInterface</node>
-            <node x="" y="">\Monolog\Handler\FilterHandler</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Event\KernelEvent</node>
-            <node x="" y="">\Twig_Markup</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactoryInterface</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener</node>
-            <node x="" y="">\Symfony\Component\Routing\Matcher\UrlMatcherInterface</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler</node>
-            <node x="" y="">\appProdProjectContainer</node>
-            <node x="" y="">\appDevDebugProjectContainerUrlGenerator</node>
-            <node x="" y="">\Symfony\Component\Routing\Matcher\UrlMatcher</node>
-            <node x="" y="">\Symfony\Component\Security\Core\Authorization\AuthorizationChecker</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener</node>
-            <node x="" y="">\Symfony\Component\Templating\TemplateReferenceInterface</node>
-            <node x="" y="">\Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface</node>
-            <node x="" y="">\Doctrine\Common\Annotations\Reader</node>
-            <node x="" y="">\Symfony\Component\Config\FileLocator</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadata</node>
-            <node x="" y="">\Doctrine\Common\Annotations\DocLexer</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\Request\ParamConverter\ParamConverterManager</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\RequestMatcherInterface</node>
-            <node x="" y="">\Psr\Log\LoggerAwareInterface</node>
-            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser</node>
-            <node x="" y="">\Psr\Cache\CacheItemPoolInterface</node>
-            <node x="" y="">\Monolog\Handler\FingersCrossed\ErrorLevelActivationStrategy</node>
-            <node x="" y="">\Twig_Extension_Optimizer</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Log\DebugLoggerInterface</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Event\FilterResponseEvent</node>
-            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Templating\Loader\TemplateLocator</node>
-            <node x="" y="">\Doctrine\Common\Persistence\Proxy</node>
-            <node x="" y="">\Doctrine\Common\Util\ClassUtils</node>
-            <node x="" y="">\Monolog\Handler\AbstractProcessingHandler</node>
-            <node x="" y="">\Symfony\Component\Routing\Generator\UrlGenerator</node>
-            <node x="" y="">\Symfony\Bridge\Doctrine\RegistryInterface</node>
-            <node x="" y="">\Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener</node>
-            <node x="" y="">\Symfony\Component\Routing\Matcher\RedirectableUrlMatcher</node>
-            <node x="" y="">\Symfony\Component\Cache\Adapter\AdapterInterface</node>
-            <node x="" y="">\Symfony\Bundle\FrameworkBundle\EventListener\SessionListener</node>
-            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Templating\GlobalVariables</node>
-            <node x="" y="">\Monolog\Handler\HandlerInterface</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\Session\Storage\PhpBridgeSessionStorage</node>
-            <node x="" y="">\Monolog\Handler\AbstractHandler</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage</node>
-            <node x="" y="">\Symfony\Bundle\SecurityBundle\Security\FirewallContext</node>
-            <node x="" y="">\Symfony\Component\Templating\TemplateNameParserInterface</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler</node>
-            <node x="" y="">\Psr\Cache\CacheItemInterface</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent</node>
-            <node x="" y="">\appDevDebugProjectContainerUrlMatcher</node>
-            <node x="" y="">\Symfony\Component\Routing\RequestContext</node>
-            <node x="" y="">\Symfony\Component\Config\FileLocatorInterface</node>
-            <node x="" y="">\Twig_Environment</node>
-            <node x="" y="">\Symfony\Bundle\FrameworkBundle\Templating\TemplateReference</node>
-            <node x="" y="">\Symfony\Component\Routing\RouterInterface</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface</node>
-            <node x="" y="">\Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager</node>
-            <node x="" y="">\Symfony\Component\Security\Http\FirewallMapInterface</node>
-            <node x="" y="">\Doctrine\Common\Annotations\PhpParser</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Event\FilterControllerEvent</node>
-            <node x="" y="">\appProdProjectContainerUrlMatcher</node>
-            <node x="" y="">\Symfony\Component\DependencyInjection\ContainerAwareTrait</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Event\GetResponseEvent</node>
-            <node x="" y="">\Symfony\Component\HttpFoundation\Session\Storage\SessionStorageInterface</node>
-            <node x="" y="">\appDevDebugProjectContainer</node>
-            <node x="" y="">\Symfony\Component\Cache\CacheItem</node>
-            <node x="" y="">\Twig_Extension_Escaper</node>
-            <node x="" y="">\Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent</node>
-            <node x="" y="">\Monolog\Formatter\NormalizerFormatter</node>
-            <node x="" y="">\Symfony\Component\Security\Core\Authorization\AccessDecisionManagerInterface</node>
-            <node x="" y="">\Doctrine\Common\Annotations\FileCacheReader</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.2946482260974143" x="827.0" y="762.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4501019">
-          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b59d6b78/59141e28-1f47-4868-baef-8dd0d4ce0e08/billetterie.reservation">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/ApcClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="123" column="3" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/DateValide.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="224" column="76" selection-start-line="224" selection-start-column="76" selection-end-line="224" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/console">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationRegistry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35135135">
-          <caret line="107" column="27" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/tarifs.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <marker date="1480939118245" expanded="true" signature="547:818" placeholder="loremweb__ticketmanager.services.gestion_tunnel_achat:" />
-            <marker date="1480939118245" expanded="true" signature="689:817" placeholder="arguments:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Templating/EngineInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2702702">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Templating/TemplatingRendererEngine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24547803">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/TwigEngine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.50104386">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.1586637">
-          <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.39039665">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.653846">
-          <caret line="92" column="34" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="34" />
-          <folding>
-            <element signature="e#66#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.538462">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0225226">
-          <caret line="297" column="26" selection-start-line="297" selection-start-column="26" selection-end-line="297" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.038288288">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Tests/Controller/DefaultControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.0">
           <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.6153846">
-          <caret line="258" column="10" selection-start-line="258" selection-start-column="10" selection-end-line="258" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1602,48 +1069,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1778" column="1" selection-start-line="1778" selection-start-column="1" selection-end-line="1778" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5427976">
+          <caret line="304" column="0" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
-          <folding>
-            <element signature="e#430#438#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6923075">
-          <caret line="278" column="20" selection-start-line="278" selection-start-column="11" selection-end-line="278" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3076925">
-          <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
-          <folding>
-            <element signature="e#2549#2590#1#PHP" expanded="true" />
-            <element signature="e#5570#5614#1#PHP" expanded="true" />
-            <element signature="e#5878#5919#1#PHP" expanded="true" />
-            <marker date="1481020913012" expanded="true" signature="4777:4861" placeholder="..." />
-            <marker date="1481020913012" expanded="true" signature="5020:5151" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3846154">
+        <state vertical-scroll-proportion="0.035490606">
           <caret line="113" column="76" selection-start-line="113" selection-start-column="76" selection-end-line="113" selection-end-column="76" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1481021209746" expanded="true" signature="289:429" placeholder="..." />
             <marker date="1481021209746" expanded="true" signature="321:418" placeholder="..." />
             <marker date="1481021209746" expanded="true" signature="4572:4601" placeholder="..." />
@@ -1696,17 +1144,403 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/image/emailLogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17745303">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.348643">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5247525">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28392485">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.970773">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46137786">
+          <caret line="415" column="43" selection-start-line="415" selection-start-column="43" selection-end-line="415" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9290188">
+          <caret line="307" column="45" selection-start-line="307" selection-start-column="45" selection-end-line="307" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/DependencyInjection/LoremwebTicketmanagerExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.106471814">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68058455">
+          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+          <folding>
+            <element signature="e#505#558#0#PHP" expanded="true" />
+            <element signature="e#822#875#0#PHP" expanded="true" />
+            <element signature="e#1366#1407#1#PHP" expanded="true" />
+            <element signature="e#1578#1589#1#PHP" expanded="true" />
+            <element signature="e#1682#1735#0#PHP" expanded="true" />
+            <element signature="e#2586#2596#1#PHP" expanded="true" />
+            <element signature="e#2751#2762#0#PHP" expanded="true" />
+            <element signature="e#2838#2891#0#PHP" expanded="true" />
+            <element signature="e#3481#3489#1#PHP" expanded="true" />
+            <element signature="e#3533#3586#0#PHP" expanded="true" />
+            <element signature="e#3880#3936#0#PHP" expanded="true" />
+            <element signature="e#4191#4242#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/visiteurRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/VisiteurType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2546973">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15841584">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46396396">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.53862214">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <marker date="1480434316813" expanded="true" signature="368:477" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
-            <marker date="1480434316813" expanded="true" signature="389:477" placeholder="SELECT dateV... reservation" />
-            <marker date="1480434316813" expanded="true" signature="994:1081" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
-            <marker date="1480434316813" expanded="true" signature="994:1099" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
-            <marker date="1480434316813" expanded="true" signature="1082:1099" placeholder="WHERE :dateV... " />
+            <marker date="1481112486539" expanded="true" signature="516:625" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
+            <marker date="1481112486539" expanded="true" signature="537:625" placeholder="SELECT dateV... reservation" />
+            <marker date="1481112486539" expanded="true" signature="1273:1360" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
+            <marker date="1481112486539" expanded="true" signature="1273:1378" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
+            <marker date="1481112486539" expanded="true" signature="1361:1378" placeholder="WHERE :dateV... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45093945">
+          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/TicketmanagerBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35490605">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/LoremwebTicketmanagerBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/NombreVisiteursValide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46137786">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/NombreVisiteursValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6638831">
+          <caret line="47" column="102" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+          <folding>
+            <element signature="e#1304#1345#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/DateValideValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68058455">
+          <caret line="62" column="110" selection-start-line="62" selection-start-column="110" selection-end-line="62" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/DateValide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigAjout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18371607">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.88100207">
+          <caret line="128" column="51" selection-start-line="128" selection-start-column="51" selection-end-line="128" selection-end-column="51" />
+          <folding>
+            <marker date="1481113140099" expanded="true" signature="4943:5027" placeholder="..." />
+            <marker date="1481113140099" expanded="true" signature="5189:5320" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/state.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.494781">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4133612">
+          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/bootstrap-datetimepicker.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6059406">
+          <caret line="222" column="142" selection-start-line="222" selection-start-column="142" selection-end-line="222" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3841336">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#2543#2551#0#Twig" expanded="true" />
+            <element signature="e#2601#2604#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9164927">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#3552#3614#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/visiteurs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5678497">
+          <caret line="15" column="199" selection-start-line="15" selection-start-column="199" selection-end-line="15" selection-end-column="199" />
+          <folding>
+            <element signature="e#878#887#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14196242">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/mentions.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#49#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/cgv.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#49#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/tarifs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3068893">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5678497">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/composant/formulaireVisiteur.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -19,6 +19,11 @@ class TwigAjout extends \Twig_Extension
         );
     }
 
+    /**
+     * @param $visiteurs
+     * @return string
+     * Définit une liste html des nombres de visiteur pour chaque tarif associé à leurs prix
+     */
     public function listeTarif($visiteurs)
     {
         $tabTarif = [];

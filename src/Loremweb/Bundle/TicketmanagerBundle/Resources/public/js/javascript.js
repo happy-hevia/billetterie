@@ -141,7 +141,7 @@ function gestionDatePickerReservation() {
             disabledDates.push(moment((anneeCourrante + 1) + el, "YYYYMM-DD"));
         });
 
-        // Si il n'y a plus de place pour un jour donné, alors l'ajouter aux dates desactivé
+        // Si il n'y a plus de place pour un jour donné, alors l'ajouter aux dates desactivés
         for (var el in visiteurParDate) {
             if (visiteurParDate[el] == 0) {
                 disabledDates.push(moment(el, "YYYY-MM-DD"));
@@ -153,7 +153,7 @@ function gestionDatePickerReservation() {
         $dateVisite.datetimepicker({
             locale: "fr",
             format: 'YYYY-MM-DD',
-            minDate: moment(),
+            minDate: moment().format('YYYY-MM-DD'),
             maxDate: moment().add(365, 'day'),
             disabledDates: disabledDates,
             daysOfWeekDisabled: parameters['date']['days_closed'],
@@ -178,7 +178,10 @@ function gestionSelectionNombreBillet() {
         var $dateVisite = $('#reservation_dateVisite');
         var parameters = JSON.parse($dateVisite.attr('data-param'));
 
+        // Je récupère le nombre de billet selectionné par défaut
+        var nombreBilletValeur = $nombreBillet.val();
 
+        // Lorsque la date change modifie le nombre de billet disponible
         reservation_dateVisite.on('dp.change', function (e) {
             if (visiteurParDate[e.date.format('YYYY-MM-DD')]) {
                 var nombreBilletRestant = visiteurParDate[e.date.format('YYYY-MM-DD')];
@@ -196,6 +199,7 @@ function gestionSelectionNombreBillet() {
                     $('<option>').val(i).text(i).appendTo('#reservation_nombreBillet');
                 }
             }
+            $nombreBillet.val(nombreBilletValeur);
         })
     }
 }
@@ -216,13 +220,22 @@ function gestionDatePickerVisiteur() {
     }
 }
 
+// Fait en sorte que l'internaute ne puisse pas selectionné le type journée si il a selectionné la date d'aujourd'hui et qu'il est plus de 14h
 function gestionTypeDeBilletDisabled() {
     var reservation_dateVisite = $('#reservation_dateVisite');
 
     if (reservation_dateVisite.length) {
+        if(reservation_dateVisite.data("DateTimePicker").date().format('YYYY-MM-DD') == moment().format("YYYY-MM-DD") && moment().format('H') >= 14 ){
+            $('#reservation_typeBillet_0').attr('disabled', 'disabled');
+            $('#reservation_typeBillet_0').removeAttr('checked');
+            $('#reservation_typeBillet_1').attr('checked', 'checked');
+        }
+
         reservation_dateVisite.on('dp.change', function (e) {
             if(e.date.format('YYYY-MM-DD') == moment().format("YYYY-MM-DD") && moment().format('H') >= 14 ){
                 $('#reservation_typeBillet_0').attr('disabled', 'disabled');
+                $('#reservation_typeBillet_0').removeAttr('checked');
+                $('#reservation_typeBillet_1').attr('checked', 'checked');
             }
         })
     }

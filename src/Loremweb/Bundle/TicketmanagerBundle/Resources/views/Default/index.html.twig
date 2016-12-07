@@ -3,10 +3,10 @@
 {% block body %}
     <div id="conteneur-ticketManager" >
         <div id="contenu-ticketManager" >
+
             {#encadré résumé de l'achat#}
             <div class="panel panel-info" >
                 <div class="panel-heading" ><h2 class="panel-title" >Résumé de la reservation :</h2 ></div >
-                {#{{ dump(app.session.get('reservation')) }}#}
                 <div class="panel-body" >
                     {% if app.session.get("reservation") is not null %}
                         <div class="col-sm-8" >

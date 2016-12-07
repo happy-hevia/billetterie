@@ -202,7 +202,7 @@ class Reservation
      */
     public function setNombreBillet($nombreBillet)
     {
-        //        Permet de ne garder que un nombre de visiteur égal au nombre mentionné par l'internaute
+//        Permet de ne garder que un nombre de visiteur égal au nombre mentionné par l'internaute
 //        Les données des autres visiteurs sont supprimés
 
         for ($i = $this->nombreBillet; $i > $nombreBillet; $i--) {
@@ -260,6 +260,11 @@ class Reservation
         return $this;
     }
 
+    /**
+     * @param $id
+     * @param Visiteur $visiteur
+     * Ajoute un visiteur aux tableaux d'objet visiteur
+     */
     public function addVisiteur($id, Visiteur $visiteur){
         $visiteur->setReservation($this);
         $this->visiteurs[$id] = $visiteur;
@@ -364,11 +369,14 @@ class Reservation
     {
         $prixTotal = 0;
 
+//        Calcule prix total en additionnant le prix de chacun des visiteurs
         if (isset($this->visiteurs)) {
             foreach ($this->visiteurs as $visiteur) {
                 $prixTotal += $visiteur->getPrix();
             }
         }
+
+//        Divise le prix total si l'internaute a selectionné le type de billet demi
         if ($this->typeBillet == "demi") {
             $prixTotal /= 2 ;
         }
@@ -384,7 +392,7 @@ class Reservation
      */
     public function validerEmailConfirmation(ExecutionContextInterface $context)
     {
-        // check if the name is actually a fake name
+        // vérifie que les 2 emails sont identiques
         if ($this->email != $this->emailConfirmation) {
             $context->buildViolation('Les 2 mails doivent être identiques')
                 ->atPath('emailConfirmation')
@@ -394,6 +402,7 @@ class Reservation
 
     /**
      * @ORM\PrePersist
+     * définit la date de reservation avec la date actuel avant l'enregistrement des données
      */
     public function actualiseDateReservation(){
         $this->dateReservation = new \DateTime();
@@ -401,6 +410,7 @@ class Reservation
 
     /**
      * @ORM\PrePersist
+     * définit un uniq id pour le code de confirmation avant l'enregistrement dans la base de donnée
      */
     public function actualiseCodeConfirmation(){
         $this->codeConfirmation = uniqid();

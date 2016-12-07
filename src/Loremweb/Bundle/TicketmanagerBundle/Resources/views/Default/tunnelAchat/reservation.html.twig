@@ -4,9 +4,6 @@
 {% endif %}
 <div role="tabpanel" class="panel panel-default tab-pane panneau-principal {% if etape == 2 %}active slideApparition{% endif %}" id="reservation" {% if nombreVisiteursSelonDates is defined %}data-visiteurs="{{ nombreVisiteursSelonDates }}"{% endif %} >
 
-
-
-
     <div class="panel-heading" >
         <h2 class="panel-title" >Réservation</h2 >
     </div >
@@ -19,7 +16,7 @@
             {{ form_end(formReservation) }}
         {% endif %}
 
-        <div class="alert alert-info" role="alert">Les billets vous seront envoyés sur votre adresse mail, merci de fournir une adresse mail valide</div>
+        <div class="alert alert-info" role="alert">Les billets vous seront envoyés sur votre adresse mail, merci de fournir une adresse mail valide.</div>
 
 
 
