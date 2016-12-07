@@ -6,23 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e84c3f70-dbb8-4751-9e11-9e96a1dc5bca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/state.css" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/state.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/composant/formulaireVisiteur.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/composant/formulaireVisiteur.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigAjout.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigAjout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/DateValideValidator.php" afterPath="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/DateValideValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
     </list>
     <ignored path="billetterie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +46,77 @@
     <favorites_list name="billetterie" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/grunt/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.9879518">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#2004#2012#0#Twig" expanded="true" />
+                <element signature="e#2062#2065#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css-concat.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/assets/css-concat.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7807933">
+              <caret line="8" column="1747" selection-start-line="8" selection-start-column="1747" selection-end-line="8" selection-end-column="1747" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReservationRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.730769">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding>
+                <marker date="1481112486539" expanded="true" signature="516:625" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
+                <marker date="1481112486539" expanded="true" signature="537:625" placeholder="SELECT dateV... reservation" />
+                <marker date="1481112486539" expanded="true" signature="1273:1360" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
+                <marker date="1481112486539" expanded="true" signature="1273:1378" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
+                <marker date="1481112486539" expanded="true" signature="1361:1378" placeholder="WHERE :dateV... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/twigExtension.php" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigExtension.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/tarifs.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/cgv.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/dateTimeConfig.js" />
@@ -114,23 +168,25 @@
         <option value="$PROJECT_DIR$/var/bootstrap.php.cache" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig" />
         <option value="&lt;31bdd5ab-b214-418d-a426-b4be69eab71d&gt;/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css" />
         <option value="$PROJECT_DIR$/web/app_dev.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Validator/Constraints/DateValideValidator.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/TwigAjout.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/state.css" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js" />
-        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig" />
         <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/composant/formulaireVisiteur.html.twig" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/node_modules/grunt/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/css-concat.css" />
       </list>
     </option>
   </component>
@@ -237,10 +293,6 @@
               <option name="myItemId" value="loremwebticketmanager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -289,6 +341,10 @@
               <option name="myItemId" value="loremwebticketmanager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -318,539 +374,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Validator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Constraints" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tunnelAchat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="composant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Type" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DependencyInjection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Loremweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketmanagerBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="billetterie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -865,7 +393,7 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="prop_add_unversioned_files" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="paiement&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig&#10;serv&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;reservation&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php&#10;reser&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php&#10;ScriptHand&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php&#10;ja&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js&#10;mail&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig&#10;paie&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig&#10;tunne&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php&#10;conf&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/config.yml&#10;autoload&#9;FILE&#9;file://C:/wamp/www/billetterie/app/autoload.php&#10;build&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php&#10;buildBoot&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php&#10;visiteur&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;twigEn&#9;null&#9;null&#10;Templating&#9;null&#9;null&#10;confi&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/config.yml&#10;tarif&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/Tarifs.html.twig&#10;type&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php&#10;java&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js&#10;Reser&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig&#10;new file&#9;ACTION&#9;NewScratchFile&#10;reserv&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig&#10;service&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;inde&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig&#10;contro&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php&#10;control&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ControllerReference.php&#10;contre&#9;null&#9;null&#10;visit&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;Filesystem&#9;null&#9;null&#10;DebugHandl&#9;null&#9;null&#10;security.y&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/security.yml&#10;routin&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/routing.yml&#10;cont&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php&#10;rout&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/routing.yml&#10;visiteurs&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/visiteurs.html.twig&#10;b&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig&#10;.onglet&#9;null&#9;null&#10;cg&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/cgv.html.twig&#10;base&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/base.css&#10;module&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css&#10;lay&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;visi&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;gest&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php&#10;la&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;mod&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css&#10;layout&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;ser&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;tu&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" />
+    <property name="SearchEverywhereHistoryKey" value="base&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig&#10;service&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;paiement&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig&#10;serv&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;reservation&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php&#10;reser&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Reservation.php&#10;ScriptHand&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php&#10;ja&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js&#10;mail&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig&#10;paie&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/paiement.html.twig&#10;tunne&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php&#10;conf&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/config.yml&#10;autoload&#9;FILE&#9;file://C:/wamp/www/billetterie/app/autoload.php&#10;build&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php&#10;buildBoot&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php&#10;visiteur&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;twigEn&#9;null&#9;null&#10;Templating&#9;null&#9;null&#10;confi&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/config.yml&#10;tarif&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/Tarifs.html.twig&#10;type&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php&#10;java&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/js/javascript.js&#10;Reser&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig&#10;new file&#9;ACTION&#9;NewScratchFile&#10;reserv&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/reservation.html.twig&#10;inde&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig&#10;contro&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php&#10;control&#9;FILE&#9;file://C:/wamp/www/billetterie/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ControllerReference.php&#10;contre&#9;null&#9;null&#10;visit&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;Filesystem&#9;null&#9;null&#10;DebugHandl&#9;null&#9;null&#10;security.y&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/security.yml&#10;routin&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/routing.yml&#10;cont&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Controller/DefaultController.php&#10;rout&#9;FILE&#9;file://C:/wamp/www/billetterie/app/config/routing.yml&#10;visiteurs&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/visiteurs.html.twig&#10;b&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig&#10;.onglet&#9;null&#9;null&#10;cg&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/cgv.html.twig&#10;module&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css&#10;lay&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;visi&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Entity/Visiteur.php&#10;gest&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php&#10;la&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;mod&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/module.css&#10;layout&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/css/layout.css&#10;ser&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml&#10;tu&#9;FILE&#9;file://C:/wamp/www/billetterie/src/Loremweb/Bundle/TicketmanagerBundle/Services/GestionTunnelAchat.php" />
     <property name="js.buildTools.grunt.node_interpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="C:\Users\Jérémie\AppData\Roaming\npm\node_modules\grunt-cli" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -990,7 +518,13 @@
       <option name="project" value="LOCAL" />
       <updated>1481021434031</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Vérification au niveau de la sécurité&#10;Correction orthographique&#10;Mise au propre&#10;Adaptation des mentions légales et des conditions générales de vente&#10;Finalisation des différents scenarion lors du paiement&#10;Correction des liens dans le menu et le footer">
+      <created>1481114043902</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1481114043902</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1004,20 +538,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23007712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24871466" sideWeight="0.71746576" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24871466" sideWeight="0.71746576" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22943445" sideWeight="0.28253424" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10632571" sideWeight="0.5025707" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19858612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34139785" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34051144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28263795" sideWeight="0.4974293" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14845759" sideWeight="0.17123288" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1416" height="676" />
@@ -1026,7 +561,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2139973" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1049,7 +583,8 @@
     <MESSAGE value="Mise en place de la navigation du tunnel d'achat&#10;Création des formulaires&#10;Gestion AJAX" />
     <MESSAGE value="Validation du formulaire&#10;Mise en place du formulaire Stripe&#10;Mise en page du tunnel d'achat&#10;Configuration du datePicker" />
     <MESSAGE value="Mise en lligne du site&#10;Configuration du mail&#10;Configuration du système paiement stripe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en lligne du site&#10;Configuration du mail&#10;Configuration du système paiement stripe" />
+    <MESSAGE value="Vérification au niveau de la sécurité&#10;Correction orthographique&#10;Mise au propre&#10;Adaptation des mentions légales et des conditions générales de vente&#10;Finalisation des différents scenarion lors du paiement&#10;Correction des liens dans le menu et le footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vérification au niveau de la sécurité&#10;Correction orthographique&#10;Mise au propre&#10;Adaptation des mentions légales et des conditions générales de vente&#10;Finalisation des différents scenarion lors du paiement&#10;Correction des liens dans le menu et le footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1058,105 +593,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/bootstrap.php.cache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1778" column="1" selection-start-line="1778" selection-start-column="1" selection-end-line="1778" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5427976">
-          <caret line="304" column="0" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/mail/mail.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035490606">
-          <caret line="113" column="76" selection-start-line="113" selection-start-column="76" selection-end-line="113" selection-end-column="76" />
-          <folding>
-            <marker date="1481021209746" expanded="true" signature="289:429" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="321:418" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="4572:4601" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="4576:4601" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="4580:4601" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="4746:4829" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="4775:4829" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="4808:4829" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="5873:5885" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="7652:7664" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="10159:10188" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="10163:10188" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="10167:10188" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="10333:10416" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="10362:10416" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="10395:10416" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="11451:11463" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="14429:14458" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="14433:14458" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="14437:14458" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="14603:14686" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="14632:14686" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="14665:14686" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="15730:15742" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="17903:17915" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="20805:20834" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="20809:20834" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="20813:20834" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="20979:21062" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="21008:21062" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="21041:21062" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="22097:22109" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="24714:24743" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="24718:24743" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="24722:24743" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="24888:24971" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="24917:24971" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="24950:24971" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="26006:26018" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="28537:28566" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="28541:28566" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="28545:28566" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="28711:28794" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="28740:28794" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="28773:28794" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="29837:29849" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="31481:31493" placeholder="..." />
-            <marker date="1481021209746" expanded="true" signature="33017:33029" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/public/image/emailLogo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17745303">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.348643">
@@ -1306,28 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15841584">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53862214">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <marker date="1481112486539" expanded="true" signature="516:625" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
-            <marker date="1481112486539" expanded="true" signature="537:625" placeholder="SELECT dateV... reservation" />
-            <marker date="1481112486539" expanded="true" signature="1273:1360" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
-            <marker date="1481112486539" expanded="true" signature="1273:1378" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
-            <marker date="1481112486539" expanded="true" signature="1361:1378" placeholder="WHERE :dateV... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Form/Type/ReservationType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45093945">
@@ -1461,27 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3841336">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#2543#2551#0#Twig" expanded="true" />
-            <element signature="e#2601#2604#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9164927">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="e#3552#3614#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/tunnelAchat/visiteurs.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5678497">
@@ -1540,6 +933,103 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.74530274">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt/web/assets/js-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Repository/ReservationRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.730769">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <marker date="1481112486539" expanded="true" signature="516:625" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
+            <marker date="1481112486539" expanded="true" signature="537:625" placeholder="SELECT dateV... reservation" />
+            <marker date="1481112486539" expanded="true" signature="1273:1360" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
+            <marker date="1481112486539" expanded="true" signature="1273:1378" placeholder="SELECT r.dat... LoremwebTicketmanagerBundle" />
+            <marker date="1481112486539" expanded="true" signature="1361:1378" placeholder="WHERE :dateV... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js-concat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-53.770298">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css-concat.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.95824635">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9879518">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loremweb/Bundle/TicketmanagerBundle/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#2004#2012#0#Twig" expanded="true" />
+            <element signature="e#2062#2065#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css-concat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7807933">
+          <caret line="8" column="1747" selection-start-line="8" selection-start-column="1747" selection-end-line="8" selection-end-column="1747" />
           <folding />
         </state>
       </provider>

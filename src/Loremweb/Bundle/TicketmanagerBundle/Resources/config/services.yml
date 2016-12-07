@@ -4,7 +4,7 @@ parameters:
             past_dates: false
             days_closed: [0, 6]
             date_closed: ["05-01", "12-25"]
-        nb_tickets_max: 1000
+        nb_tickets_max: 10
         tarifs:
             normal: [12, 60, 16]
             enfant: [4, 12, 8]
