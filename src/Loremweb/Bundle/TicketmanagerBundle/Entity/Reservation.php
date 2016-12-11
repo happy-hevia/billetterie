@@ -264,10 +264,13 @@ class Reservation
      * @param $id
      * @param Visiteur $visiteur
      * Ajoute un visiteur aux tableaux d'objet visiteur
+     * @return $this
      */
     public function addVisiteur($id, Visiteur $visiteur){
         $visiteur->setReservation($this);
         $this->visiteurs[$id] = $visiteur;
+
+        return $this;
     }
 
     /**
@@ -343,6 +346,8 @@ class Reservation
     public function setCgu($cgu)
     {
         $this->cgu = $cgu;
+
+        return $this;
     }
 
     /**
@@ -359,6 +364,8 @@ class Reservation
     public function setEmailConfirmation($emailConfirmation)
     {
         $this->emailConfirmation = $emailConfirmation;
+
+        return $this;
     }
 
     /**
@@ -397,7 +404,10 @@ class Reservation
             $context->buildViolation('Les 2 mails doivent être identiques')
                 ->atPath('emailConfirmation')
                 ->addViolation();
+
+            return false;
         }
+        return true;
     }
 
     /**
@@ -431,6 +441,8 @@ class Reservation
     public function setValide($valide)
     {
         $this->valide = $valide;
+
+        return $this;
     }
 
 }

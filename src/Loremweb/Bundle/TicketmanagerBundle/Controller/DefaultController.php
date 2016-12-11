@@ -40,7 +40,7 @@ class DefaultController extends Controller
      */
     public function reservationAction(Request $request)
     {
-        $em = $this->getDoctrine()->getEntityManager();
+        $em = $this->getDoctrine()->getManager();
         $form = $this->get('loremweb__ticketmanager.services.gestion_tunnel_achat')->validationFormulaireReservation($request);
         $nombreVisiteursSelonDates = $em->getRepository('LoremwebTicketmanagerBundle:Reservation')->getPlacesRestantesSelonDates();
 
