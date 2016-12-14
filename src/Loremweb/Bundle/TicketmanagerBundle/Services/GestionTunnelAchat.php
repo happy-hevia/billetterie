@@ -21,7 +21,9 @@ use Stripe\Stripe;
 use Symfony\Bundle\TwigBundle\TwigEngine;
 use Symfony\Component\Form\Extension\Templating\TemplatingExtension;
 use Symfony\Component\Form\FormFactory;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Session\Session;
+use Symfony\Component\Routing\Router;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 
 class GestionTunnelAchat
@@ -32,8 +34,9 @@ class GestionTunnelAchat
     private $parameters;
     private $mailer;
     private $templating;
+    private $router;
 
-    public function __construct(EntityManager $entityManager, FormFactory $formFactory, Session $session, $parameters, \Swift_Mailer $mailer, TwigEngine $templating)
+    public function __construct(EntityManager $entityManager, FormFactory $formFactory, Session $session, $parameters, \Swift_Mailer $mailer, TwigEngine $templating, Router $router)
     {
         $this->entityManager = $entityManager;
         $this->formFactory = $formFactory;
@@ -41,6 +44,7 @@ class GestionTunnelAchat
         $this->parameters = $parameters;
         $this->mailer = $mailer;
         $this->templating = $templating;
+        $this->router = $router;
     }
 
     /**
@@ -81,8 +85,10 @@ class GestionTunnelAchat
                 $this->entityManager->flush();
             }
 
-
-            return true;
+//            Fait une redirection vers le panneau suivant
+            $redirection = new RedirectResponse($this->router->generate('visiteurs'));
+            $redirection->prepare($request);
+            $redirection->send();
         }
 
         return $form->createView();
@@ -114,7 +120,18 @@ class GestionTunnelAchat
             $this->session->get('reservation')->addVisiteur($numero, $visiteur);
             $this->session->get('reservation')->getVisiteurs()[$numero]->actualiseTarifPrix($this->parameters);
             $this->session->get('reservation')->calculePrixTotal();
-            return true;
+
+
+            //            si il n'y a pas de visiteur suivant, on redirige vers la page de paiement
+            if ($this->session->get('reservation')->getNombreBillet() == $numero) {
+                $redirection = new RedirectResponse($this->router->generate('paiement'));
+                $redirection->prepare($request);
+                $redirection->send();
+            }
+            //            si il y a un visiteur suivant alors on redirige au formulaire du visiteur suivant
+            $redirection = new RedirectResponse($this->router->generate('visiteurs', array('numero' => $numero + 1)));
+            $redirection->prepare($request);
+            $redirection->send();
         }
         return $form->createView();
     }
@@ -163,8 +180,10 @@ class GestionTunnelAchat
 //              Vide le cache
             $this->session->clear();
 
-//            indique que tout a bien fonctionné et qu'il doit y avoir une redirection
-            return "redirect";
+//            redirection vers page d'accueil
+            $redirection = new RedirectResponse($this->router->generate('tarifs'));
+            $redirection->prepare($request);
+            $redirection->send();
         }
 
 

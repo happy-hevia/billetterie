@@ -40,20 +40,19 @@ class DefaultController extends Controller
      */
     public function reservationAction(Request $request)
     {
+
+//        récupération des informations du formulaire
         $em = $this->getDoctrine()->getManager();
         $form = $this->get('loremweb__ticketmanager.services.gestion_tunnel_achat')->validationFormulaireReservation($request);
         $nombreVisiteursSelonDates = $em->getRepository('LoremwebTicketmanagerBundle:Reservation')->getPlacesRestantesSelonDates();
 
-//        si le formulaire est valide passe à l'étape suivante
-        if ($form === true) {
-            return $this->redirectToRoute("visiteurs");
-        }
 
-//       sinon affiche la page avec le formulaire
+//       Affiche la page avec le formulaire
         return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig',
             array('formReservation' => $form,
                 'etape' => 2,
                 'nombreVisiteursSelonDates' => $nombreVisiteursSelonDates));
+
     }
 
     /**
@@ -65,17 +64,6 @@ class DefaultController extends Controller
     public function visiteursAction(Request $request, $numero = 1)
     {
         $form = $this->get('loremweb__ticketmanager.services.gestion_tunnel_achat')->validationFormulaireVisiteur($request, $numero);
-
-//        Si le formulaire est valide
-        if ($form === true) {
-//            si il n'y a pas de visiteur suivant, on redirige vers la page de paiement
-            if ($this->get('session')->get('reservation')->getNombreBillet() == $numero) {
-                return $this->redirectToRoute('paiement');
-            }
-//            si il y a un visiteur suivant alors on redirige au formulaire du visiteur suivant
-            return $this->redirectToRoute('visiteurs', array('numero' => $numero + 1));
-
-        }
 
         return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig', array('formVisiteur' => $form, 'etape' => 3, 'numero' => $numero));
     }
@@ -89,11 +77,6 @@ class DefaultController extends Controller
     {
 //        Récupération du message
         $message = $this->get('loremweb__ticketmanager.services.gestion_tunnel_achat')->gestionValidationPaiement($request);
-
-//        redirection vers la page d'accueil en cas de succès
-        if ($message === "redirect") {
-            return $this->redirectToRoute('tarifs');
-        }
 
 
         return $this->render('LoremwebTicketmanagerBundle:Default:index.html.twig', array('etape' => 4, 'message' => $message));

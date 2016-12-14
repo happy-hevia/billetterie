@@ -15,7 +15,7 @@ parameters:
 services:
     loremweb__ticketmanager.services.gestion_tunnel_achat:
         class: Loremweb\Bundle\TicketmanagerBundle\Services\GestionTunnelAchat
-        arguments: [ "@doctrine.orm.entity_manager", "@form.factory", "@session", "%loremweb_ticketmanager%", "@mailer", "@templating" ]
+        arguments: [ "@doctrine.orm.entity_manager", "@form.factory", "@session", "%loremweb_ticketmanager%", "@mailer", "@templating", "@router" ]
 
     validator.date_valide:
         class: Loremweb\Bundle\TicketmanagerBundle\Validator\Constraints\DateValideValidator

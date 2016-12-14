@@ -27,7 +27,6 @@ class DefaultControllerTest extends WebTestCase
     protected function setUp()
     {
         $client = static::createClient();
-
         $this->client = $client;
     }
 
@@ -35,9 +34,10 @@ class DefaultControllerTest extends WebTestCase
     public function testTarif()
     {
 
-
+        // accède à la page tarif
         $crawler = $this->client->request('GET', '/tarifs');
 
+        // succès
         $this->assertTrue($this->client->getResponse()->isSuccessful());
 
 //        encart résumé
@@ -82,6 +82,7 @@ class DefaultControllerTest extends WebTestCase
     public function testReservation()
     {
 
+        // donnée de test
         $session = $this->client->getContainer()->get('session');
         $reservation = new Reservation();
 
@@ -91,6 +92,7 @@ class DefaultControllerTest extends WebTestCase
         $session->set('reservation', $reservation);
 
 
+//        accès à la page reservation
         $crawler = $this->client->request('GET', '/reservation');
 
         $this->assertTrue($this->client->getResponse()->isSuccessful());
@@ -148,6 +150,7 @@ class DefaultControllerTest extends WebTestCase
     public function testVisiteurs()
     {
 
+//        donnée de test
         $session = $this->client->getContainer()->get('session');
         $reservation = new Reservation();
 
@@ -160,6 +163,7 @@ class DefaultControllerTest extends WebTestCase
         $session->set('reservation', $reservation);
 
 
+//        accède à la page visiteur
         $crawler = $this->client->request('GET', '/visiteurs');
 
         $this->assertTrue($this->client->getResponse()->isSuccessful());
@@ -217,6 +221,7 @@ class DefaultControllerTest extends WebTestCase
     public function testPaiement()
     {
 
+//        donnée de test
         $session = $this->client->getContainer()->get('session');
         $reservation = new Reservation();
 
@@ -229,6 +234,7 @@ class DefaultControllerTest extends WebTestCase
         $session->set('reservation', $reservation);
 
 
+//        accès à la page de paiement
         $crawler = $this->client->request('GET', '/paiement');
 
         $this->assertTrue($this->client->getResponse()->isSuccessful());
@@ -278,7 +284,6 @@ class DefaultControllerTest extends WebTestCase
     public function testStripe()
     {
         Stripe::setApiKey("sk_test_gMXa70m6mNIl5MRI2bdhLLWc");
-
 
         try {
 

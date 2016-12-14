@@ -26,6 +26,7 @@ class ReservationTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
+//        Crée la reservation si elle n'ai pas créé
         if ($this->reservation === null) {
             $this->reservation = new Reservation();
         }
@@ -311,6 +312,7 @@ class ReservationTest extends \PHPUnit_Framework_TestCase
 
     public function testcalculePrixTotal()
     {
+//        variable de test
         $visiteur1 = new Visiteur();
         $visiteur1->setPrix(42);
 
@@ -320,8 +322,10 @@ class ReservationTest extends \PHPUnit_Framework_TestCase
         $this->reservation->addVisiteur(1, $visiteur1);
         $this->reservation->addVisiteur(2, $visiteur2);
 
+//        fonction à tester
         $this->reservation->calculePrixTotal();
 
+//        test de ses actions
         $this->assertEquals(53, $this->reservation->getPrixTotal());
 
         $visiteur1->setPrix(543);
